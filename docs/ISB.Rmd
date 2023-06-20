@@ -1,0 +1,62 @@
+---
+author: "ISB proposal "
+date: "7/29/22"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+mainfont: Times New Roman
+fontsize: 12pt
+---
+\begin{center}
+A Conceptual Replication of Rothman (2011): L3 syntactic transfer selectivity and typological determinacy: The Typological Primacy Model
+\end{center}
+
+Rothman (2011) was a seminal study in the field of third language (L3) acquisition.
+In this study, the Typological Primacy Model (TPM) was formally introduced and has had a lasting impact on the field over the last decade. 
+A key research question in L3 research has been how bilinguals are impacted by their known languages during the process of acquiring a third language.
+The TPM predicts that only the psychotypologically closer source language between the L1 and L2 holistically influences the L3.
+This prediction stands in contrast to competing models, which suggest that source language influence in L3 acquisition occurs from just the L2 (Bardel & Falk, 2007) or on a property-by-property basis (Westergaard et al. 2017).
+It is this claim that only one source language, rather than a combination of both L1 and L2, influences the L3 during acquisition that motivates this replication. 
+
+In the original study, speakers of L3 Brazilian Portuguese (L1 English-L2 Spanish) and speakers of L3 Spanish (L1 Italian- L2 English) completed both a Semantic Interpretation task and a Context-based Collocation task. 
+The tasks were designed to measure whether the groups would similarly perceive and produce the meaning of noun-adjective pairs when the adjective was pre and post nominal, a feature of many Romance Languages but not English. 
+The results suggested that the two L3 groups performed similarly on both experimental tasks, and was taken as evidence that Spanish or Italian influenced their L3, rather than English.
+
+A replication of this study can strengthen its original conclusions in three primary ways.
+First, the sample size (n = 15 and n = 12 in the L3 groups) of the original study is likely too low, and group difference could be due to sampling issues.
+Second, additional methods of testing for equivalence can be used to strengthen claims that no practical difference between L3 groups exist.
+Finally, adjustments to the L3 groups and additional groups can be included to evaluate the predictions of newer models relative to those of the TPM.
+
+The present study recreated the Semantic interpretation and Context-based Collocation Tasks in Brazilian Portuguese (BP) based on information provided in the original study.
+These tasks involve interpreting meaning of determiner phrase constructions involving pre and post nominal adjectives (e.g. o homem pobre vs. o pobre homem).
+These tasks were administered to two L3 groups 
+(L1 Spanish-L2 English-L3 BP and L1 English-L2 Spanish-L3 BP speakers), two L2 groups (L1 Spanish-L2 BP and L1 English-L2 BP) and monolingual BP speakers. 
+BP proficiency was measured using the Portuguese LexTALE (Zhou & Li, 2021).
+
+The value of this replication would have implications for both supporters of the TPM and other models.
+In the event that a difference is found between L3 groups or an L2 and L3 group, the basis for the model itself could be called into question in favor of other models.
+This finding would call into question whether the TPM can be considered the dominant or most accurate model in L3 acquisition, given that a recent systematic review (Rothman et al., 2019) concluded that typological transfer most often accounted for outcomes in L3 morphosyntax, rather than order of acquisition. 
+On the other hand, a successful replication of Rothman (2011) would suggest that full influence is possible and would strengthen the basis of the TPM and lessen counter arguments that include potential sampling issues, while also quantifying the (un)certainty related to this similar performance between groups. 
+
+\newpage
+
+## References
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\phantom{.} 
+\textcolor{white}{\\} 
+\vspace{-0.5in}
+
+Bardel, C., \& Falk, Y. (2007). The role of the second language in third language acquisition: The case of Germanic syntax. *Second Language Research*, 23(4), 459–484. https://doi.org/10.1177/0267658307080557
+
+Rothman, J. (2011). L3 syntactic transfer selectivity and typological determinacy: The typological primacy model. *Second Language Research*, 27(1), 107–127. https://doi.org/10.1177/0267658310386439
+
+Rothman, J., González Alonso, J., & Puig-Mayenco, E. (2019). A Review of Published Work. In Third Language Acquisition and Linguistic Transfer (1st ed., pp. 188–246). Cambridge University Press.
+
+Westergaard, M., Mitrofanova, N., Mykhaylyk, R., \& Rodina, Y. (2017). Crosslinguistic influence in the acquisition of a third language: The Linguistic Proximity Model. *International Journal of Bilingualism*, 21(6), 666–682. https://doi.org/10.1177/1367006916648859
+
+Zhou, C., & Li, X. (2021). LextPT: A reliable and efficient vocabulary size test for L2 Portuguese proficiency. *Behavior Research Methods.* https://doi.org/10.3758/s13428-021-01731-1
+
+
+\endgroup

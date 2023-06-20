@@ -1,0 +1,526 @@
+1.4554000000357628	DATA	Mouse: out, pos=(1328,554)
+9.063600000023843	DATA	Keydown: undefined
+9.751800000011922	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.48981442300742095,"y":-0.5551272166538165,~, text=Thank you for participating in the experience.
+
+Th~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.786200000047684	EXP	Created prompt_collocation = TextStim( name=prompt_collocation, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.2], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":0,"y":0.1776407093292213,"width":0,"height":0~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.04, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.787500000000001	EXP	Created cross = TextStim( name=cross, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.014131732784791828,"y":-0.0277563608326908~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FF0000, contrast=1 )
+9.788200000047684	EXP	Created opt_a_text = TextStim( name=opt_a_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.3,-0.2], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.3,"y":-0.22235929067077873,"width":0,"heig~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.04, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.788800000011921	EXP	Created opt_b_text = TextStim( name=opt_b_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.3,-0.2], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":0.3,"y":-0.22235929067077873,"width":0,"heigh~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.04, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.789900000035763	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4825344394516191,"y":-0.027756360832690823~, text=Now part 2 is starting: press "space" to continue, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.790300000011921	EXP	Created prompt_interpretation = TextStim( name=prompt_interpretation, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.2], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":0,"y":0.1776407093292213,"width":0,"height":0~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.04, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.790700000047684	EXP	Created cross_2 = TextStim( name=cross_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.014131732784791828,"y":-0.0277563608326908~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FF0000, contrast=1 )
+9.796200000047685	EXP	Created opt_a_text_2 = TextStim( name=opt_a_text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[-0.3,-0.2], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.3,"y":-0.21657671549730148,"width":0,"heig~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.796800000011922	EXP	Created opt_b_text_2 = TextStim( name=opt_b_text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0.3,-0.3], size=undefined, ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":0.3,"y":-0.3165767154973015,"width":0,"height~, text=null, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.03, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.798900000035763	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.3496227396756939,"y":-0.13878180416345412,~, text=Obrigado! Here's the prolific code:
+
+CBREWR4A
+
+Spa~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Open Sans, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+9.813100000023843	EXP	text: units = height
+9.813100000023843	EXP	text: pos = [0,0]
+9.813100000023843	EXP	text: size = undefined
+9.813100000023843	EXP	text: ori = null
+9.813100000023843	EXP	text: opacity = 1
+9.813100000023843	EXP	text: depth = null
+9.813100000023843	EXP	text: clipMask = null
+9.813100000023843	EXP	text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	text: text = Thank you for participating in the experience.
+
+This task has two parts. In the first part, you will see a sentence in which you will be asked to fill in the blank, choosing one of the two options. Choose the left option by pressing (1) and the right option by pressing (0). In the second part, you will read a short sentence and choose between two options that say that sentence differently, again by pressing (1) for the left option and (0) for the right option.
+
+There are 10 sentences in each part, and this task should take less than 5 minutes in total.
+
+To begin, please let me know whether you are more familiar with Brazilian Portuguese (by pressing 1) or European Portuguese (press 0)
+
+Thanks!
+9.813100000023843	EXP	text: alignHoriz = center
+9.813100000023843	EXP	text: alignVert = center
+9.813100000023843	EXP	text: flipHoriz = null
+9.813100000023843	EXP	text: flipVert = null
+9.813100000023843	EXP	text: font = Open Sans
+9.813100000023843	EXP	text: height = 0.05
+9.813100000023843	EXP	text: wrapWidth = 1
+9.813100000023843	EXP	text: bold = null
+9.813100000023843	EXP	text: italic = null
+9.813100000023843	EXP	text: color = #FFFFFF
+9.813100000023843	EXP	text: contrast = 1
+9.813100000023843	EXP	prompt_collocation: units = height
+9.813100000023843	EXP	prompt_collocation: pos = [0,0.2]
+9.813100000023843	EXP	prompt_collocation: size = undefined
+9.813100000023843	EXP	prompt_collocation: ori = null
+9.813100000023843	EXP	prompt_collocation: opacity = 1
+9.813100000023843	EXP	prompt_collocation: depth = null
+9.813100000023843	EXP	prompt_collocation: clipMask = null
+9.813100000023843	EXP	prompt_collocation: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	prompt_collocation: text = null
+9.813100000023843	EXP	prompt_collocation: alignHoriz = center
+9.813100000023843	EXP	prompt_collocation: alignVert = center
+9.813100000023843	EXP	prompt_collocation: flipHoriz = null
+9.813100000023843	EXP	prompt_collocation: flipVert = null
+9.813100000023843	EXP	prompt_collocation: font = Open Sans
+9.813100000023843	EXP	prompt_collocation: height = 0.04
+9.813100000023843	EXP	prompt_collocation: wrapWidth = 1
+9.813100000023843	EXP	prompt_collocation: bold = null
+9.813100000023843	EXP	prompt_collocation: italic = null
+9.813100000023843	EXP	prompt_collocation: color = #FFFFFF
+9.813100000023843	EXP	prompt_collocation: contrast = 1
+9.813100000023843	EXP	cross: units = height
+9.813100000023843	EXP	cross: pos = [0,0]
+9.813100000023843	EXP	cross: size = undefined
+9.813100000023843	EXP	cross: ori = null
+9.813100000023843	EXP	cross: opacity = 1
+9.813100000023843	EXP	cross: depth = -1
+9.813100000023843	EXP	cross: clipMask = null
+9.813100000023843	EXP	cross: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	cross: text = +
+9.813100000023843	EXP	cross: alignHoriz = center
+9.813100000023843	EXP	cross: alignVert = center
+9.813100000023843	EXP	cross: flipHoriz = null
+9.813100000023843	EXP	cross: flipVert = null
+9.813100000023843	EXP	cross: font = Open Sans
+9.813100000023843	EXP	cross: height = 0.05
+9.813100000023843	EXP	cross: wrapWidth = 1
+9.813100000023843	EXP	cross: bold = null
+9.813100000023843	EXP	cross: italic = null
+9.813100000023843	EXP	cross: color = #FF0000
+9.813100000023843	EXP	cross: contrast = 1
+9.813100000023843	EXP	opt_a_text: units = height
+9.813100000023843	EXP	opt_a_text: pos = [-0.3,-0.2]
+9.813100000023843	EXP	opt_a_text: size = undefined
+9.813100000023843	EXP	opt_a_text: ori = null
+9.813100000023843	EXP	opt_a_text: opacity = 1
+9.813100000023843	EXP	opt_a_text: depth = -3
+9.813100000023843	EXP	opt_a_text: clipMask = null
+9.813100000023843	EXP	opt_a_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	opt_a_text: text = null
+9.813100000023843	EXP	opt_a_text: alignHoriz = center
+9.813100000023843	EXP	opt_a_text: alignVert = center
+9.813100000023843	EXP	opt_a_text: flipHoriz = null
+9.813100000023843	EXP	opt_a_text: flipVert = null
+9.813100000023843	EXP	opt_a_text: font = Open Sans
+9.813100000023843	EXP	opt_a_text: height = 0.04
+9.813100000023843	EXP	opt_a_text: wrapWidth = 1
+9.813100000023843	EXP	opt_a_text: bold = null
+9.813100000023843	EXP	opt_a_text: italic = null
+9.813100000023843	EXP	opt_a_text: color = #FFFFFF
+9.813100000023843	EXP	opt_a_text: contrast = 1
+9.813100000023843	EXP	opt_b_text: units = height
+9.813100000023843	EXP	opt_b_text: pos = [0.3,-0.2]
+9.813100000023843	EXP	opt_b_text: size = undefined
+9.813100000023843	EXP	opt_b_text: ori = null
+9.813100000023843	EXP	opt_b_text: opacity = 1
+9.813100000023843	EXP	opt_b_text: depth = -4
+9.813100000023843	EXP	opt_b_text: clipMask = null
+9.813100000023843	EXP	opt_b_text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	opt_b_text: text = null
+9.813100000023843	EXP	opt_b_text: alignHoriz = center
+9.813100000023843	EXP	opt_b_text: alignVert = center
+9.813100000023843	EXP	opt_b_text: flipHoriz = null
+9.813100000023843	EXP	opt_b_text: flipVert = null
+9.813100000023843	EXP	opt_b_text: font = Open Sans
+9.813100000023843	EXP	opt_b_text: height = 0.04
+9.813100000023843	EXP	opt_b_text: wrapWidth = 1
+9.813100000023843	EXP	opt_b_text: bold = null
+9.813100000023843	EXP	opt_b_text: italic = null
+9.813100000023843	EXP	opt_b_text: color = #FFFFFF
+9.813100000023843	EXP	opt_b_text: contrast = 1
+9.813100000023843	EXP	text_2: units = height
+9.813100000023843	EXP	text_2: pos = [0,0]
+9.813100000023843	EXP	text_2: size = undefined
+9.813100000023843	EXP	text_2: ori = null
+9.813100000023843	EXP	text_2: opacity = 1
+9.813100000023843	EXP	text_2: depth = null
+9.813100000023843	EXP	text_2: clipMask = null
+9.813100000023843	EXP	text_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	text_2: text = Now part 2 is starting: press "space" to continue
+9.813100000023843	EXP	text_2: alignHoriz = center
+9.813100000023843	EXP	text_2: alignVert = center
+9.813100000023843	EXP	text_2: flipHoriz = null
+9.813100000023843	EXP	text_2: flipVert = null
+9.813100000023843	EXP	text_2: font = Open Sans
+9.813100000023843	EXP	text_2: height = 0.05
+9.813100000023843	EXP	text_2: wrapWidth = 1
+9.813100000023843	EXP	text_2: bold = null
+9.813100000023843	EXP	text_2: italic = null
+9.813100000023843	EXP	text_2: color = #FFFFFF
+9.813100000023843	EXP	text_2: contrast = 1
+9.813100000023843	EXP	prompt_interpretation: units = height
+9.813100000023843	EXP	prompt_interpretation: pos = [0,0.2]
+9.813100000023843	EXP	prompt_interpretation: size = undefined
+9.813100000023843	EXP	prompt_interpretation: ori = null
+9.813100000023843	EXP	prompt_interpretation: opacity = 1
+9.813100000023843	EXP	prompt_interpretation: depth = null
+9.813100000023843	EXP	prompt_interpretation: clipMask = null
+9.813100000023843	EXP	prompt_interpretation: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	prompt_interpretation: text = null
+9.813100000023843	EXP	prompt_interpretation: alignHoriz = center
+9.813100000023843	EXP	prompt_interpretation: alignVert = center
+9.813100000023843	EXP	prompt_interpretation: flipHoriz = null
+9.813100000023843	EXP	prompt_interpretation: flipVert = null
+9.813100000023843	EXP	prompt_interpretation: font = Open Sans
+9.813100000023843	EXP	prompt_interpretation: height = 0.04
+9.813100000023843	EXP	prompt_interpretation: wrapWidth = 1
+9.813100000023843	EXP	prompt_interpretation: bold = null
+9.813100000023843	EXP	prompt_interpretation: italic = null
+9.813100000023843	EXP	prompt_interpretation: color = #FFFFFF
+9.813100000023843	EXP	prompt_interpretation: contrast = 1
+9.813100000023843	EXP	cross_2: units = height
+9.813100000023843	EXP	cross_2: pos = [0,0]
+9.813100000023843	EXP	cross_2: size = undefined
+9.813100000023843	EXP	cross_2: ori = null
+9.813100000023843	EXP	cross_2: opacity = 1
+9.813100000023843	EXP	cross_2: depth = -2
+9.813100000023843	EXP	cross_2: clipMask = null
+9.813100000023843	EXP	cross_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	cross_2: text = +
+9.813100000023843	EXP	cross_2: alignHoriz = center
+9.813100000023843	EXP	cross_2: alignVert = center
+9.813100000023843	EXP	cross_2: flipHoriz = null
+9.813100000023843	EXP	cross_2: flipVert = null
+9.813100000023843	EXP	cross_2: font = Open Sans
+9.813100000023843	EXP	cross_2: height = 0.05
+9.813100000023843	EXP	cross_2: wrapWidth = 1
+9.813100000023843	EXP	cross_2: bold = null
+9.813100000023843	EXP	cross_2: italic = null
+9.813100000023843	EXP	cross_2: color = #FF0000
+9.813100000023843	EXP	cross_2: contrast = 1
+9.813100000023843	EXP	opt_a_text_2: units = height
+9.813100000023843	EXP	opt_a_text_2: pos = [-0.3,-0.2]
+9.813100000023843	EXP	opt_a_text_2: size = undefined
+9.813100000023843	EXP	opt_a_text_2: ori = null
+9.813100000023843	EXP	opt_a_text_2: opacity = 1
+9.813100000023843	EXP	opt_a_text_2: depth = -3
+9.813100000023843	EXP	opt_a_text_2: clipMask = null
+9.813100000023843	EXP	opt_a_text_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	opt_a_text_2: text = null
+9.813100000023843	EXP	opt_a_text_2: alignHoriz = center
+9.813100000023843	EXP	opt_a_text_2: alignVert = center
+9.813100000023843	EXP	opt_a_text_2: flipHoriz = null
+9.813100000023843	EXP	opt_a_text_2: flipVert = null
+9.813100000023843	EXP	opt_a_text_2: font = Open Sans
+9.813100000023843	EXP	opt_a_text_2: height = 0.03
+9.813100000023843	EXP	opt_a_text_2: wrapWidth = 1
+9.813100000023843	EXP	opt_a_text_2: bold = null
+9.813100000023843	EXP	opt_a_text_2: italic = null
+9.813100000023843	EXP	opt_a_text_2: color = #FFFFFF
+9.813100000023843	EXP	opt_a_text_2: contrast = 1
+9.813100000023843	EXP	opt_b_text_2: units = height
+9.813100000023843	EXP	opt_b_text_2: pos = [0.3,-0.3]
+9.813100000023843	EXP	opt_b_text_2: size = undefined
+9.813100000023843	EXP	opt_b_text_2: ori = null
+9.813100000023843	EXP	opt_b_text_2: opacity = 1
+9.813100000023843	EXP	opt_b_text_2: depth = -4
+9.813100000023843	EXP	opt_b_text_2: clipMask = null
+9.813100000023843	EXP	opt_b_text_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	opt_b_text_2: text = null
+9.813100000023843	EXP	opt_b_text_2: alignHoriz = center
+9.813100000023843	EXP	opt_b_text_2: alignVert = center
+9.813100000023843	EXP	opt_b_text_2: flipHoriz = null
+9.813100000023843	EXP	opt_b_text_2: flipVert = null
+9.813100000023843	EXP	opt_b_text_2: font = Open Sans
+9.813100000023843	EXP	opt_b_text_2: height = 0.03
+9.813100000023843	EXP	opt_b_text_2: wrapWidth = 1
+9.813100000023843	EXP	opt_b_text_2: bold = null
+9.813100000023843	EXP	opt_b_text_2: italic = null
+9.813100000023843	EXP	opt_b_text_2: color = #FFFFFF
+9.813100000023843	EXP	opt_b_text_2: contrast = 1
+9.813100000023843	EXP	text_3: units = height
+9.813100000023843	EXP	text_3: pos = [0,0]
+9.813100000023843	EXP	text_3: size = undefined
+9.813100000023843	EXP	text_3: ori = null
+9.813100000023843	EXP	text_3: opacity = 1
+9.813100000023843	EXP	text_3: depth = null
+9.813100000023843	EXP	text_3: clipMask = null
+9.813100000023843	EXP	text_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+9.813100000023843	EXP	text_3: text = Obrigado! Here's the prolific code:
+
+CBREWR4A
+
+Space to finish.
+9.813100000023843	EXP	text_3: alignHoriz = center
+9.813100000023843	EXP	text_3: alignVert = center
+9.813100000023843	EXP	text_3: flipHoriz = null
+9.813100000023843	EXP	text_3: flipVert = null
+9.813100000023843	EXP	text_3: font = Open Sans
+9.813100000023843	EXP	text_3: height = 0.05
+9.813100000023843	EXP	text_3: wrapWidth = 1
+9.813100000023843	EXP	text_3: bold = null
+9.813100000023843	EXP	text_3: italic = null
+9.813100000023843	EXP	text_3: color = #FFFFFF
+9.813100000023843	EXP	text_3: contrast = 1
+9.813100000023843	EXP	text: autoDraw = true
+11.452400000035764	DATA	Mouse: wheel shift=(0,100), pos=(2045,687)
+11.501300000011922	DATA	Mouse: wheel shift=(0,100), pos=(2031,705)
+11.820500000000001	DATA	Mouse: wheel shift=(0,-100), pos=(2030,706)
+11.868500000000001	DATA	Mouse: wheel shift=(0,-100), pos=(2030,706)
+29.064100000023842	DATA	Keydown: 0
+30.06360000002384	DATA	Keydown: 0
+30.38960000002384	DATA	Keydown: 0
+31.22	DATA	Keydown: 0
+31.229700000047686	EXP	text: autoDraw = null
+31.229700000047686	EXP	prompt_collocation: text = Era apenas uma pessoa, não duas pessoas. Foi a _______________ .
+31.229700000047686	EXP	opt_a_text: text = pessoa mesma
+31.229700000047686	EXP	opt_b_text: text = mesma pessoa
+31.229700000047686	EXP	cross: autoDraw = true
+31.723	EXP	cross: autoDraw = null
+31.75530000001192	EXP	prompt_collocation: autoDraw = true
+31.75530000001192	EXP	opt_a_text: autoDraw = true
+31.75530000001192	EXP	opt_b_text: autoDraw = true
+36.744	DATA	Keydown: 0
+36.7575	EXP	prompt_collocation: autoDraw = null
+36.7575	EXP	cross: autoDraw = null
+36.7575	EXP	opt_a_text: autoDraw = null
+36.7575	EXP	opt_b_text: autoDraw = null
+36.7575	EXP	prompt_collocation: text = Esse livro é a edição do ano passado - precisamos do ________
+36.7575	EXP	opt_a_text: text = Livro novo
+36.7575	EXP	opt_b_text: text = livro novo
+36.7575	EXP	cross: autoDraw = true
+37.25760000002384	EXP	cross: autoDraw = null
+37.271499999999996	EXP	prompt_collocation: autoDraw = true
+37.271499999999996	EXP	opt_a_text: autoDraw = true
+37.271499999999996	EXP	opt_b_text: autoDraw = true
+43.2425	DATA	Keydown: 0
+43.25360000002384	EXP	prompt_collocation: autoDraw = null
+43.25360000002384	EXP	cross: autoDraw = null
+43.25360000002384	EXP	opt_a_text: autoDraw = null
+43.25360000002384	EXP	opt_b_text: autoDraw = null
+43.25360000002384	EXP	prompt_collocation: text = Há muitos pais na platéia da festa. Há crianças que jogam muito bem, mas as que jogam mal são uma vergonha para os pais. Os _______________ batem palmas e gritam por seus filhos. (orgulhoso)
+43.25360000002384	EXP	opt_a_text: text = pais orgulhosos
+43.25360000002384	EXP	opt_b_text: text = orgulhosos pais
+43.25360000002384	EXP	cross: autoDraw = true
+43.76470000004768	EXP	prompt_collocation: autoDraw = true
+43.76470000004768	EXP	cross: autoDraw = null
+43.76470000004768	EXP	opt_a_text: autoDraw = true
+43.76470000004768	EXP	opt_b_text: autoDraw = true
+51.88660000002384	DATA	Keydown: 1
+51.90390000003576	EXP	prompt_collocation: autoDraw = null
+51.90390000003576	EXP	cross: autoDraw = null
+51.90390000003576	EXP	opt_a_text: autoDraw = null
+51.90390000003576	EXP	opt_b_text: autoDraw = null
+51.90390000003576	EXP	prompt_collocation: text = O professor ensina dois cursos que você pode fazer. Há _______________.
+51.90390000003576	EXP	opt_a_text: text = opções várias
+51.90390000003576	EXP	opt_b_text: text = várias opções
+51.90390000003576	EXP	cross: autoDraw = true
+52.396900000035764	EXP	cross: autoDraw = null
+52.4175	EXP	prompt_collocation: autoDraw = true
+52.4175	EXP	opt_a_text: autoDraw = true
+52.4175	EXP	opt_b_text: autoDraw = true
+58.888700000047685	DATA	Keydown: 0
+58.896900000035764	EXP	prompt_collocation: autoDraw = null
+58.896900000035764	EXP	cross: autoDraw = null
+58.896900000035764	EXP	opt_a_text: autoDraw = null
+58.896900000035764	EXP	opt_b_text: autoDraw = null
+58.896900000035764	EXP	prompt_collocation: text = Entre os alunos, sempre há um equilíbrio de inteligência e estupidez em uma escola. Os _______________ estão sempre nas 'classes de honra' (estudioso)
+58.896900000035764	EXP	opt_a_text: text = estudantes estudiosos
+58.896900000035764	EXP	opt_b_text: text = estudiosos estudantes
+58.896900000035764	EXP	cross: autoDraw = true
+59.396900000035764	EXP	cross: autoDraw = null
+59.41680000001192	EXP	prompt_collocation: autoDraw = true
+59.41680000001192	EXP	opt_a_text: autoDraw = true
+59.41680000001192	EXP	opt_b_text: autoDraw = true
+67.5015	DATA	Keydown: 1
+67.515	EXP	prompt_collocation: autoDraw = null
+67.515	EXP	cross: autoDraw = null
+67.515	EXP	opt_a_text: autoDraw = null
+67.515	EXP	opt_b_text: autoDraw = null
+67.515	EXP	prompt_collocation: text = Eu a conheci há muitos anos. É uma _______________.
+67.515	EXP	opt_a_text: text = amigo velho
+67.515	EXP	opt_b_text: text = velho amigo
+67.515	EXP	cross: autoDraw = true
+68.00840000003576	EXP	cross: autoDraw = null
+68.02960000002383	EXP	prompt_collocation: autoDraw = true
+68.02960000002383	EXP	opt_a_text: autoDraw = true
+68.02960000002383	EXP	opt_b_text: autoDraw = true
+75.44770000004769	DATA	Keydown: 0
+75.45960000002384	EXP	prompt_collocation: autoDraw = null
+75.45960000002384	EXP	cross: autoDraw = null
+75.45960000002384	EXP	opt_a_text: autoDraw = null
+75.45960000002384	EXP	opt_b_text: autoDraw = null
+75.45960000002384	EXP	prompt_collocation: text = Nem todo garoto da minha escola é Atlético, mas os _______________ percorrem 7 milhas todos os dias.
+75.45960000002384	EXP	opt_a_text: text = meninos fortes
+75.45960000002384	EXP	opt_b_text: text = fortes meninos
+75.45960000002384	EXP	cross: autoDraw = true
+75.97420000004769	EXP	prompt_collocation: autoDraw = true
+75.97420000004769	EXP	cross: autoDraw = null
+75.97420000004769	EXP	opt_a_text: autoDraw = true
+75.97420000004769	EXP	opt_b_text: autoDraw = true
+80.09210000002383	DATA	Keydown: 1
+80.10580000001193	EXP	prompt_collocation: autoDraw = null
+80.10580000001193	EXP	cross: autoDraw = null
+80.10580000001193	EXP	opt_a_text: autoDraw = null
+80.10580000001193	EXP	opt_b_text: autoDraw = null
+80.10580000001193	EXP	prompt_collocation: text = Meus amigos não têm dinheiro. São _______________.
+80.10580000001193	EXP	opt_a_text: text = amigos pobres
+80.10580000001193	EXP	opt_b_text: text = pobres amigos
+80.10580000001193	EXP	cross: autoDraw = true
+80.59870000004769	EXP	cross: autoDraw = null
+80.61270000004768	EXP	prompt_collocation: autoDraw = true
+80.61270000004768	EXP	opt_a_text: autoDraw = true
+80.61270000004768	EXP	opt_b_text: autoDraw = true
+87.55030000001192	DATA	Keydown: 1
+87.5645	EXP	prompt_collocation: autoDraw = null
+87.5645	EXP	cross: autoDraw = null
+87.5645	EXP	opt_a_text: autoDraw = null
+87.5645	EXP	opt_b_text: autoDraw = null
+87.5645	EXP	prompt_collocation: text = Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)
+87.5645	EXP	opt_a_text: text = super-heróis valentes
+87.5645	EXP	opt_b_text: text = valentes super-heróis
+87.5645	EXP	cross: autoDraw = true
+88.05690000003577	EXP	cross: autoDraw = null
+88.07780000001192	EXP	prompt_collocation: autoDraw = true
+88.07780000001192	EXP	opt_a_text: autoDraw = true
+88.07780000001192	EXP	opt_b_text: autoDraw = true
+94.68230000001192	DATA	Keydown: 1
+94.69320000004768	EXP	prompt_collocation: autoDraw = null
+94.69320000004768	EXP	cross: autoDraw = null
+94.69320000004768	EXP	opt_a_text: autoDraw = null
+94.69320000004768	EXP	opt_b_text: autoDraw = null
+94.69320000004768	EXP	prompt_collocation: text = Alguns pais estão mais envolvidos na vida de seus filhos do que outros. Os _______________ brinca com seus filhos à noite antes de adormecer. (afetuoso)
+94.69320000004768	EXP	opt_a_text: text = pais afetuosos
+94.69320000004768	EXP	opt_b_text: text = afetuosos pais
+94.69320000004768	EXP	cross: autoDraw = true
+95.1895	EXP	cross: autoDraw = null
+95.20690000003576	EXP	prompt_collocation: autoDraw = true
+95.20690000003576	EXP	opt_a_text: autoDraw = true
+95.20690000003576	EXP	opt_b_text: autoDraw = true
+101.23910000002384	DATA	Keydown: 1
+101.25940000003577	EXP	prompt_collocation: autoDraw = null
+101.25940000003577	EXP	cross: autoDraw = null
+101.25940000003577	EXP	opt_a_text: autoDraw = null
+101.25940000003577	EXP	opt_b_text: autoDraw = null
+101.25940000003577	EXP	text_2: autoDraw = true
+103.2105	DATA	Keydown:  
+103.22430000001192	EXP	text_2: autoDraw = null
+103.22430000001192	EXP	prompt_interpretation: text = O próprio presidente conversou com a classe.
+103.22430000001192	EXP	opt_a_text_2: text = O presidente, e não outra pessoa, conversou com a classe.
+103.22430000001192	EXP	opt_b_text_2: text = O presidente que já havia falado com a classe.
+103.22430000001192	EXP	cross_2: autoDraw = true
+103.717	EXP	cross_2: autoDraw = null
+103.74090000003577	EXP	prompt_interpretation: autoDraw = true
+103.74090000003577	EXP	opt_a_text_2: autoDraw = true
+103.74090000003577	EXP	opt_b_text_2: autoDraw = true
+110.69230000001193	DATA	Keydown: 1
+110.71030000001193	EXP	prompt_interpretation: autoDraw = null
+110.71030000001193	EXP	cross_2: autoDraw = null
+110.71030000001193	EXP	opt_a_text_2: autoDraw = null
+110.71030000001193	EXP	opt_b_text_2: autoDraw = null
+110.71030000001193	EXP	prompt_interpretation: text = Minha avó tem duas lâmpadas antigas na sala.
+110.71030000001193	EXP	opt_a_text_2: text = Ele tem duas lâmpadas velhas na sala.
+110.71030000001193	EXP	opt_b_text_2: text = Possui dois Lumpears na sala de estar que as relíquias.
+110.71030000001193	EXP	cross_2: autoDraw = true
+111.21060000002385	EXP	prompt_interpretation: autoDraw = true
+111.21060000002385	EXP	cross_2: autoDraw = null
+111.21060000002385	EXP	opt_a_text_2: autoDraw = true
+111.21060000002385	EXP	opt_b_text_2: autoDraw = true
+120.52680000001192	DATA	Keydown: 1
+120.53710000002384	EXP	prompt_interpretation: autoDraw = null
+120.53710000002384	EXP	cross_2: autoDraw = null
+120.53710000002384	EXP	opt_a_text_2: autoDraw = null
+120.53710000002384	EXP	opt_b_text_2: autoDraw = null
+120.53710000002384	EXP	prompt_interpretation: text = Meu amigo velho vem comer conosco
+120.53710000002384	EXP	opt_a_text_2: text = Meu amigo é meu amigo há muitos anos
+120.53710000002384	EXP	opt_b_text_2: text = Meu amigo não é jovem.
+120.53710000002384	EXP	cross_2: autoDraw = true
+121.03699999999999	EXP	cross_2: autoDraw = null
+121.05140000003576	EXP	prompt_interpretation: autoDraw = true
+121.05140000003576	EXP	opt_a_text_2: autoDraw = true
+121.05140000003576	EXP	opt_b_text_2: autoDraw = true
+126.17680000001192	DATA	Keydown: 1
+126.19660000002384	EXP	prompt_interpretation: autoDraw = null
+126.19660000002384	EXP	cross_2: autoDraw = null
+126.19660000002384	EXP	opt_a_text_2: autoDraw = null
+126.19660000002384	EXP	opt_b_text_2: autoDraw = null
+126.19660000002384	EXP	prompt_interpretation: text = Seus pais falam uma rara língua.
+126.19660000002384	EXP	opt_a_text_2: text = Eles falam uma linguagem estranha.
+126.19660000002384	EXP	opt_b_text_2: text = Eles falam um idioma que muito poucas pessoas falam.
+126.19660000002384	EXP	cross_2: autoDraw = true
+126.70290000003575	EXP	prompt_interpretation: autoDraw = true
+126.70290000003575	EXP	cross_2: autoDraw = null
+126.70290000003575	EXP	opt_a_text_2: autoDraw = true
+126.70290000003575	EXP	opt_b_text_2: autoDraw = true
+132.27030000001193	DATA	Keydown: 0
+132.28040000003577	EXP	prompt_interpretation: autoDraw = null
+132.28040000003577	EXP	cross_2: autoDraw = null
+132.28040000003577	EXP	opt_a_text_2: autoDraw = null
+132.28040000003577	EXP	opt_b_text_2: autoDraw = null
+132.28040000003577	EXP	prompt_interpretation: text = Mariela é uma velha amiga de Florence.
+132.28040000003577	EXP	opt_a_text_2: text = Muitos anos atrás eles são amigos.
+132.28040000003577	EXP	opt_b_text_2: text = Mariela é velha.
+132.28040000003577	EXP	cross_2: autoDraw = true
+132.7875	EXP	prompt_interpretation: autoDraw = true
+132.7875	EXP	cross_2: autoDraw = null
+132.7875	EXP	opt_a_text_2: autoDraw = true
+132.7875	EXP	opt_b_text_2: autoDraw = true
+136.77410000002385	DATA	Keydown: 1
+136.78710000002383	EXP	prompt_interpretation: autoDraw = null
+136.78710000002383	EXP	cross_2: autoDraw = null
+136.78710000002383	EXP	opt_a_text_2: autoDraw = null
+136.78710000002383	EXP	opt_b_text_2: autoDraw = null
+136.78710000002383	EXP	prompt_interpretation: text = Marta é a pessoa única de quem falei.
+136.78710000002383	EXP	opt_a_text_2: text = Não há ninguém (tão especial) quanto Marta, que eu te disse.
+136.78710000002383	EXP	opt_b_text_2: text = Não contei a você sobre mais ninguém, além de Marta.
+136.78710000002383	EXP	cross_2: autoDraw = true
+137.28830000001193	EXP	prompt_interpretation: autoDraw = true
+137.28830000001193	EXP	cross_2: autoDraw = null
+137.28830000001193	EXP	opt_a_text_2: autoDraw = true
+137.28830000001193	EXP	opt_b_text_2: autoDraw = true
+145.17	DATA	Keydown: 0
+145.183	EXP	prompt_interpretation: autoDraw = null
+145.183	EXP	cross_2: autoDraw = null
+145.183	EXP	opt_a_text_2: autoDraw = null
+145.183	EXP	opt_b_text_2: autoDraw = null
+145.183	EXP	prompt_interpretation: text = A pintura grande é muito cara.
+145.183	EXP	opt_a_text_2: text = A pintura é impressionante e custa muito dinheiro
+145.183	EXP	opt_b_text_2: text = A pintura é enorme e custa muito dinheiro
+145.183	EXP	cross_2: autoDraw = true
+145.67710000002384	EXP	cross_2: autoDraw = null
+145.69460000002385	EXP	prompt_interpretation: autoDraw = true
+145.69460000002385	EXP	opt_a_text_2: autoDraw = true
+145.69460000002385	EXP	opt_b_text_2: autoDraw = true
+149.58020000004768	DATA	Keydown: 0
+149.597	EXP	prompt_interpretation: autoDraw = null
+149.597	EXP	cross_2: autoDraw = null
+149.597	EXP	opt_a_text_2: autoDraw = null
+149.597	EXP	opt_b_text_2: autoDraw = null
+149.597	EXP	prompt_interpretation: text = Santiago comprou um novo computador.
+149.597	EXP	opt_a_text_2: text = O computador era 100% novo.
+149.597	EXP	opt_b_text_2: text = Comprei outro computador.
+149.597	EXP	cross_2: autoDraw = true
+150.101	EXP	prompt_interpretation: autoDraw = true
+150.101	EXP	cross_2: autoDraw = null
+150.101	EXP	opt_a_text_2: autoDraw = true
+150.101	EXP	opt_b_text_2: autoDraw = true
+153.5933000000119	DATA	Keydown: 1
+153.60610000002384	EXP	prompt_interpretation: autoDraw = null
+153.60610000002384	EXP	cross_2: autoDraw = null
+153.60610000002384	EXP	opt_a_text_2: autoDraw = null
+153.60610000002384	EXP	opt_b_text_2: autoDraw = null
+153.60610000002384	EXP	prompt_interpretation: text = As grandes obras são impressionantes.
+153.60610000002384	EXP	opt_a_text_2: text = Os trabalhos não são pequenos.
+153.60610000002384	EXP	opt_b_text_2: text = Os trabalhos são ótimos.
+153.60610000002384	EXP	cross_2: autoDraw = true
+154.10690000003575	EXP	cross_2: autoDraw = null
+154.11790000003577	EXP	prompt_interpretation: autoDraw = true
+154.11790000003577	EXP	opt_a_text_2: autoDraw = true
+154.11790000003577	EXP	opt_b_text_2: autoDraw = true
+159.05880000001193	DATA	Keydown: 1
+159.07210000002385	EXP	prompt_interpretation: autoDraw = null
+159.07210000002385	EXP	cross_2: autoDraw = null
+159.07210000002385	EXP	opt_a_text_2: autoDraw = null
+159.07210000002385	EXP	opt_b_text_2: autoDraw = null
+159.07210000002385	EXP	prompt_interpretation: text = Naquela casa, mora um homem sozinho.
+159.07210000002385	EXP	opt_a_text_2: text = Apenas um homem mora em casa.
+159.07210000002385	EXP	opt_b_text_2: text = O homem se sente sozinho.
+159.07210000002385	EXP	cross_2: autoDraw = true
+159.56540000003577	EXP	cross_2: autoDraw = null
+159.57980000001191	EXP	prompt_interpretation: autoDraw = true
+159.57980000001191	EXP	opt_a_text_2: autoDraw = true
+159.57980000001191	EXP	opt_b_text_2: autoDraw = true
+163.6353000000119	DATA	Keydown: 1
+163.64930000001192	EXP	prompt_interpretation: autoDraw = null
+163.64930000001192	EXP	cross_2: autoDraw = null
+163.64930000001192	EXP	opt_a_text_2: autoDraw = null
+163.64930000001192	EXP	opt_b_text_2: autoDraw = null
+163.64930000001192	EXP	text_3: autoDraw = true
+170.94130000001192	DATA	Keydown:  

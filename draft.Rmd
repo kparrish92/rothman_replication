@@ -1,0 +1,37 @@
+ 
+
+# Background/Lit review
+
+There are 2 model types: 
+Restrictive/single trasnfer models 
+
+Less restrictive and less predictive models 
+
+## CEM 
+
+## L2SF
+
+## TPM
+
+## LPM/SM
+
+## Systematic review 
+
+# Methods
+
+## Tasks 
+
+## Participants 
+
+## Procedure 
+
+## Statistical Analysis 
+
+# Results 
+
+# Discussion 
+
+Low sample studies are at high risk to fail to find a small effect size. 
+Thus, the lack of a "significant" finding in and of itself does not consitute sufficient evidence for a null finding.
+
+<!--- Include the replication of brysbaert that shows the winners curse/samples---->

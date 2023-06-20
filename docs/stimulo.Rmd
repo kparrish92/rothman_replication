@@ -1,0 +1,34 @@
+---
+title: "stimuli"
+output: pdf_document
+date: '2022-07-12'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Stimuli examples 
+
+### Semantic Interpretation Task (n = 10, 5 pre-nominal, 5 post-nominal)
+
+Example 1 Rothman (2011) - the text refers to example 5 as pre-nominal and example 6 as post-nominal, but I am not sure this wasn't the opposite. 
+
+#### Pre-nominal token?
+
+5. Los maridos honestos se merecen el respeto de sus mujeres.
+
+**a. De todos los maridos que hay solo algunos, los que son honestos merecen el respeto de sus esposas.**
+
+b. Todo marido se merece el respeto de su esposa porque todo marido es, por ser marido, honesto.
+
+
+
+#### Post-nominal token?
+
+6. Los valientes Incas tenían mucho éxito.
+
+a. Entre los incas había los valientes y los no valientes, así que todo inca que era valiente también tenía éxito
+
+**b. Ser Inca equivale a ser valiente, así que todo Inca tenía éxito.**
+

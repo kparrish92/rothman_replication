@@ -1,0 +1,675 @@
+@Manual{R-base,
+  title = {R: A Language and Environment for Statistical Computing},
+  author = {{R Core Team}},
+  organization = {R Foundation for Statistical Computing},
+  address = {Vienna, Austria},
+  year = {2021},
+  url = {https://www.R-project.org/},
+}
+@Article{R-gtsummary,
+  author = {Daniel D. Sjoberg and Karissa Whiting and Michael Curry and Jessica A. Lavery and Joseph Larmarange},
+  title = {Reproducible Summary Tables with the gtsummary Package},
+  journal = {{The R Journal}},
+  year = {2021},
+  url = {https://doi.org/10.32614/RJ-2021-053},
+  doi = {10.32614/RJ-2021-053},
+  volume = {13},
+  issue = {1},
+  pages = {570-580},
+}
+@Manual{R-papaja,
+  title = {{papaja}: {Prepare} reproducible {APA} journal articles with {R Markdown}},
+  author = {Frederik Aust and Marius Barth},
+  year = {2022},
+  note = {R package version 0.1.0},
+  url = {https://github.com/crsh/papaja},
+}
+@Manual{R-tinylabels,
+  title = {{tinylabels}: Lightweight Variable Labels},
+  author = {Marius Barth},
+  year = {2021},
+  note = {R package version 0.2.1},
+  url = {https://github.com/mariusbarth/tinylabels},
+}
+
+@article{plonsky2014big,
+  title={How big is “big”? Interpreting effect sizes in L2 research},
+  author={Plonsky, Luke and Oswald, Frederick L},
+  journal={Language learning},
+  volume={64},
+  number={4},
+  pages={878--912},
+  year={2014},
+  publisher={Wiley Online Library}
+}
+
+@book{cohen2013statistical,
+  title={Statistical power analysis for the behavioral sciences},
+  author={Cohen, Jacob},
+  year={2013},
+  publisher={Academic press}
+}
+
+@article{rothman2015linguistic,
+  title={Linguistic and cognitive motivations for the Typological Primacy Model (TPM) of third language (L3) transfer: Timing of acquisition and proficiency considered},
+  author={Rothman, Jason},
+  journal={Bilingualism: language and cognition},
+  volume={18},
+  number={2},
+  pages={179--190},
+  year={2015},
+  publisher={Cambridge University Press}
+}
+
+@article{rothman2011l3,
+  title={L3 syntactic transfer selectivity and typological determinacy: The typological primacy model},
+  author={Rothman, Jason},
+  journal={Second Language Research},
+  volume={27},
+  number={1},
+  pages={107--127},
+  year={2011},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{grosjean1989neurolinguists,
+  title={Neurolinguists, beware! The bilingual is not two monolinguals in one person},
+  author={Grosjean, Fran{\c{c}}ois},
+  journal={Brain and language},
+  volume={36},
+  number={1},
+  pages={3--15},
+  year={1989},
+  publisher={Elsevier}
+}
+
+@article{slabakova2017scalpel,
+  title={The scalpel model of third language acquisition},
+  author={Slabakova, Roumyana},
+  journal={International Journal of Bilingualism},
+  volume={21},
+  number={6},
+  pages={651--665},
+  year={2017},
+  publisher={Sage Publications Sage UK: London, England}
+}
+
+@article{kruschke2018rejecting,
+  title={Rejecting or accepting parameter values in Bayesian estimation},
+  author={Kruschke, John K},
+  journal={Advances in methods and practices in psychological science},
+  volume={1},
+  number={2},
+  pages={270--280},
+  year={2018},
+  publisher={Sage Publications Sage CA: Los Angeles, CA}
+}
+
+@article{lemhofer2012introducing,
+  title={Introducing LexTALE: A quick and valid lexical test for advanced learners of English},
+  author={Lemh{\"o}fer, Kristin and Broersma, Mirjam},
+  journal={Behavior research methods},
+  volume={44},
+  pages={325--343},
+  year={2012},
+  publisher={Springer}
+}
+
+@article{jin2009third,
+  title={Third language acquisition of Norwegian objects: Interlanguage transfer or L1 influence},
+  author={Jin, Fufen},
+  journal={Third language acquisition and universal grammar},
+  pages={144--161},
+  year={2009},
+  publisher={Multilingual Matters}
+}
+
+@article{zhou2022lextpt,
+  title={LextPT: A reliable and efficient vocabulary size test for L2 Portuguese proficiency},
+  author={Zhou, Chao and Li, Xinyi},
+  journal={Behavior Research Methods},
+  volume={54},
+  number={6},
+  pages={2625--2639},
+  year={2022},
+  publisher={Springer}
+}
+
+@article{izura2014lextale,
+  title={Lextale-Esp: A test to rapidly and efficiently assess the Spanish vocabulary size},
+  author={Izura, Cristina and Cuetos, Fernando and Brysbaert, Marc},
+  journal={Psicol{\'o}gica},
+  volume={35},
+  number={1},
+  pages={49--66},
+  year={2014}
+}
+
+@article{puig2020systematic,
+  title={A systematic review of transfer studies in third language acquisition},
+  author={Puig-Mayenco, Eloi and Gonz{\'a}lez Alonso, Jorge and Rothman, Jason},
+  journal={Second Language Research},
+  volume={36},
+  number={1},
+  pages={31--64},
+  year={2020},
+  publisher={Sage Publications Sage UK: London, England}
+}
+
+@article{anwyl2018gorillas,
+  title={Gorillas in our midst: Gorilla. sc},
+  author={Anwyl-Irvine, Alexander and Massonni{\'e}, Jessica and Flitton, Adam and Kirkham, Natasha and Evershed, Jo},
+  journal={Behavior Research Methods},
+  year={2018}
+}
+
+@article{schwartz1996l2,
+  title={L2 cognitive states and the full transfer/full access model},
+  author={Schwartz, Bonnie D and Sprouse, Rex A},
+  journal={Second language research},
+  volume={12},
+  number={1},
+  pages={40--72},
+  year={1996},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+@article{lakens2018equivalence,
+  title={Equivalence testing for psychological research: A tutorial},
+  author={Lakens, Dani{\"e}l and Scheel, Anne M and Isager, Peder M},
+  journal={Advances in Methods and Practices in Psychological Science},
+  volume={1},
+  number={2},
+  pages={259--269},
+  year={2018},
+  publisher={Sage Publications Sage CA: Los Angeles, CA}
+}
+
+@article{westergaard2017crosslinguistic,
+  title={Crosslinguistic influence in the acquisition of a third language: The Linguistic Proximity Model},
+  author={Westergaard, Marit and Mitrofanova, Natalia and Mykhaylyk, Roksolana and Rodina, Yulia},
+  journal={International Journal of Bilingualism},
+  volume={21},
+  number={6},
+  pages={666--682},
+  year={2017},
+  publisher={Sage Publications Sage UK: London, England}
+}
+
+@article{brysbaert2021power,
+  title={Power considerations in bilingualism research: Time to step up our game},
+  author={Brysbaert, Marc},
+  journal={Bilingualism: Language and Cognition},
+  volume={24},
+  number={5},
+  pages={813--818},
+  year={2021},
+  publisher={Cambridge University Press}
+}
+
+@article{bardel2012l2,
+  title={The L2 status factor and the declarative/procedural distinction},
+  author={Bardel, Camilla and Falk, Ylva},
+  journal={Third language acquisition in adulthood},
+  volume={46},
+  pages={61--78},
+  year={2012}
+}
+
+@article{bardel2017l2,
+  title={The L2 status factor hypothesis revisited},
+  author={Bardel, Camilla and S{\'a}nchez, Laura},
+  journal={L3 Syntactic Transfer: Models, New Developments and Implications; Angelovska, T., Hahn, A., Eds},
+  pages={85--101},
+  year={2017}
+}
+
+@article{bardel2007role,
+  title={The role of the second language in third language acquisition: The case of Germanic syntax},
+  author={Bardel, Camilla and Falk, Ylva},
+  journal={Second Language Research},
+  volume={23},
+  number={4},
+  pages={459--484},
+  year={2007},
+  publisher={Sage Publications Sage UK: London, England}
+}
+
+@book{rothman2019third,
+  title={Third language acquisition and linguistic transfer},
+  author={Rothman, Jason and Alonso, Jorge Gonz{\'a}lez and Puig-Mayenco, Eloi},
+  volume={163},
+  year={2019},
+  publisher={Cambridge University Press}
+}
+
+@article{hermas2014multilingual,
+  title={Multilingual transfer: L1 morphosyntax in L3 English},
+  author={Hermas, Abdelkader},
+  journal={International Journal of Language Studies},
+  volume={8},
+  number={2},
+  pages={1--24},
+  year={2014}
+}
+
+@article{hermas2010language,
+  title={Language acquisition as computational resetting: Verb movement in L3 initial state},
+  author={Hermas, Abdelkader},
+  journal={International Journal of Multilingualism},
+  volume={7},
+  number={4},
+  pages={343--362},
+  year={2010},
+  publisher={Taylor \& Francis}
+}
+
+@article{flynn2004cumulative,
+  title={The cumulative-enhancement model for language acquisition: Comparing adults' and children's patterns of development in first, second and third language acquisition of relative clauses},
+  author={Flynn, Suzanne and Foley, Claire and Vinnitskaya, Inna},
+  journal={International Journal of Multilingualism},
+  volume={1},
+  number={1},
+  pages={3--16},
+  year={2004},
+  publisher={Taylor \& Francis}
+}
+
+@article{foote2009transfer,
+  title={Transfer in L3 acquisition: The role of typology},
+  author={Foote, Rebecca},
+  journal={Third language acquisition and universal grammar},
+  volume={37},
+  pages={89},
+  year={2009},
+  publisher={Multilingual Matters Clevedon}
+}@Manual{R-dplyr,
+  title = {dplyr: A Grammar of Data Manipulation},
+  author = {Hadley Wickham and Romain François and Lionel Henry and Kirill Müller},
+  year = {2022},
+  note = {R package version 1.0.9},
+  url = {https://CRAN.R-project.org/package=dplyr},
+}
+@Manual{R-forcats,
+  title = {forcats: Tools for Working with Categorical Variables (Factors)},
+  author = {Hadley Wickham},
+  year = {2021},
+  note = {R package version 0.5.1},
+  url = {https://CRAN.R-project.org/package=forcats},
+}
+@Book{R-ggplot2,
+  author = {Hadley Wickham},
+  title = {ggplot2: Elegant Graphics for Data Analysis},
+  publisher = {Springer-Verlag New York},
+  year = {2016},
+  isbn = {978-3-319-24277-4},
+  url = {https://ggplot2.tidyverse.org},
+}
+@Manual{R-here,
+  title = {here: A Simpler Way to Find Your Files},
+  author = {Kirill Müller},
+  year = {2020},
+  note = {R package version 1.0.1},
+  url = {https://CRAN.R-project.org/package=here},
+}
+@Manual{R-purrr,
+  title = {purrr: Functional Programming Tools},
+  author = {Lionel Henry and Hadley Wickham},
+  year = {2020},
+  note = {R package version 0.3.4},
+  url = {https://CRAN.R-project.org/package=purrr},
+}
+@Manual{R-readr,
+  title = {readr: Read Rectangular Text Data},
+  author = {Hadley Wickham and Jim Hester},
+  year = {2020},
+  note = {R package version 1.4.0},
+  url = {https://CRAN.R-project.org/package=readr},
+}
+@Manual{R-stringr,
+  title = {stringr: Simple, Consistent Wrappers for Common String Operations},
+  author = {Hadley Wickham},
+  year = {2019},
+  note = {R package version 1.4.0},
+  url = {https://CRAN.R-project.org/package=stringr},
+}
+@Manual{R-tibble,
+  title = {tibble: Simple Data Frames},
+  author = {Kirill Müller and Hadley Wickham},
+  year = {2022},
+  note = {R package version 3.1.7},
+  url = {https://CRAN.R-project.org/package=tibble},
+}
+@Manual{R-tidyr,
+  title = {tidyr: Tidy Messy Data},
+  author = {Hadley Wickham and Maximilian Girlich},
+  year = {2022},
+  note = {R package version 1.2.1},
+  url = {https://CRAN.R-project.org/package=tidyr},
+}
+@Article{R-tidyverse,
+  title = {Welcome to the {tidyverse}},
+  author = {Hadley Wickham and Mara Averick and Jennifer Bryan and Winston Chang and Lucy D'Agostino McGowan and Romain François and Garrett Grolemund and Alex Hayes and Lionel Henry and Jim Hester and Max Kuhn and Thomas Lin Pedersen and Evan Miller and Stephan Milton Bache and Kirill Müller and Jeroen Ooms and David Robinson and Dana Paige Seidel and Vitalie Spinu and Kohske Takahashi and Davis Vaughan and Claus Wilke and Kara Woo and Hiroaki Yutani},
+  year = {2019},
+  journal = {Journal of Open Source Software},
+  volume = {4},
+  number = {43},
+  pages = {1686},
+  doi = {10.21105/joss.01686},
+}
+@Article{R-bayesplot,
+  title = {Visualization in Bayesian workflow},
+  author = {Jonah Gabry and Daniel Simpson and Aki Vehtari and Michael Betancourt and Andrew Gelman},
+  year = {2019},
+  journal = {J. R. Stat. Soc. A},
+  volume = {182},
+  issue = {2},
+  pages = {389-402},
+  doi = {10.1111/rssa.12378},
+}
+@Article{R-brms_a,
+  title = {{brms}: An {R} Package for {Bayesian} Multilevel Models Using {Stan}},
+  author = {Paul-Christian Bürkner},
+  journal = {Journal of Statistical Software},
+  year = {2017},
+  volume = {80},
+  number = {1},
+  pages = {1--28},
+  doi = {10.18637/jss.v080.i01},
+  encoding = {UTF-8},
+}
+@Article{R-brms_b,
+  title = {Advanced {Bayesian} Multilevel Modeling with the {R} Package {brms}},
+  author = {Paul-Christian Bürkner},
+  journal = {The R Journal},
+  year = {2018},
+  volume = {10},
+  number = {1},
+  pages = {395--411},
+  doi = {10.32614/RJ-2018-017},
+  encoding = {UTF-8},
+}
+@Manual{R-fs,
+  title = {fs: Cross-Platform File System Operations Based on 'libuv'},
+  author = {Jim Hester and Hadley Wickham and Gábor Csárdi},
+  year = {2021},
+  note = {R package version 1.5.2},
+  url = {https://CRAN.R-project.org/package=fs},
+}
+@Manual{R-ggpubr,
+  title = {ggpubr: 'ggplot2' Based Publication Ready Plots},
+  author = {Alboukadel Kassambara},
+  year = {2020},
+  note = {R package version 0.4.0},
+  url = {https://CRAN.R-project.org/package=ggpubr},
+}
+@Manual{R-httr,
+  title = {httr: Tools for Working with URLs and HTTP},
+  author = {Hadley Wickham},
+  year = {2020},
+  note = {R package version 1.4.2},
+  url = {https://CRAN.R-project.org/package=httr},
+}
+@Article{R-insight,
+  title = {{insight}: A Unified Interface to Access Information from Model Objects in {R}.},
+  volume = {4},
+  doi = {10.21105/joss.01412},
+  number = {38},
+  journal = {Journal of Open Source Software},
+  author = {Daniel Lüdecke and Philip Waggoner and Dominique Makowski},
+  year = {2019},
+  pages = {1412},
+}
+@Article{R-Rcpp_a,
+  title = {{Rcpp}: Seamless {R} and {C++} Integration},
+  author = {Dirk Eddelbuettel and Romain Fran\c{c}ois},
+  journal = {Journal of Statistical Software},
+  year = {2011},
+  volume = {40},
+  number = {8},
+  pages = {1--18},
+  doi = {10.18637/jss.v040.i08},
+}
+@Article{R-Rcpp_b,
+  title = {{Extending 	extit{R} with 	extit{C++}: A Brief Introduction to 	extit{Rcpp}}},
+  author = {Dirk Eddelbuettel and James Joseph Balamuta},
+  journal = {The American Statistician},
+  year = {2018},
+  volume = {72},
+  number = {1},
+  pages = {28-36},
+  doi = {10.1080/00031305.2017.1375990},
+}
+@Manual{R-sjPlot,
+  title = {sjPlot: Data Visualization for Statistics in Social Science},
+  author = {Daniel Lüdecke},
+  year = {2021},
+  note = {R package version 2.8.10},
+  url = {https://CRAN.R-project.org/package=sjPlot},
+}
+@Article{R-TOSTER_a,
+  title = {Exploring Equivalence Testing with the Updated TOSTER R Package},
+  doi = {10.31234/osf.io/ty8de},
+  url = {https://doi.org/10.31234/osf.io/ty8de},
+  journal = {PsyArXiv},
+  year = {2022},
+  author = {{Aaron} and {R.} and {Caldwell} and {aut}},
+}
+@Article{R-TOSTER_b,
+  author = {{Daniel} and {Lakens} and {aut}},
+  title = {Equivalence tests: A practical primer for t-tests, correlations, and meta-analyses},
+  journal = {Social Psychological and Personality Science},
+  year = {2017},
+  volume = {1},
+  pages = {1--8},
+  doi = {10.1177/1948550617697177},
+}
+@Manual{R-xtable,
+  title = {xtable: Export Tables to LaTeX or HTML},
+  author = {David B. Dahl and David Scott and Charles Roosen and Arni Magnusson and Jonathan Swinton},
+  year = {2019},
+  note = {R package version 1.8-4},
+  url = {https://CRAN.R-project.org/package=xtable},
+}
+
+@article{schwartz2021full,
+  title={The full transfer/full access model and L3 cognitive states},
+  author={Schwartz, Bonnie D and Sprouse, Rex A},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={1--29},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{fernandez2021vindicating,
+  title={Vindicating the need for a principled theory of language acquisition},
+  author={Fern{\'a}ndez-Berkes, {\'E}va and Flynn, Suzanne},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={30--36},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{bohnacker2021transfer,
+  title={On transfer and third language acquisition: A commentary on Schwartz \& Sprouse},
+  author={Bohnacker, Ute},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={37--44},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{ecke2021parasitic,
+  title={The Parasitic Model},
+  author={Ecke, Peter and Hall, Christopher J and others},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={45--49},
+  year={2021},
+  publisher={John Benjamins}
+}
+
+@article{falk2021transfer,
+  title={Transfer patterns in L3 learning discussed},
+  author={Falk, Ylva and Bardel, Camilla},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={10},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{gonzalez2021you,
+  title={You know more than you say: Methodological choices in L3 transfer research},
+  author={Gonz{\'a}lez Alonso, Jorge and Puig-Mayenco, Eloi},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={54--59},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{gutierrez2021expanding,
+  title={Expanding the scope of L3 transfer study designs},
+  author={Gutierrez-Mangado, M Juncal},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={60--64},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{ionin2021sources,
+  title={Sources of knowledge in L3 acquisition},
+  author={Ionin, Tania and Scutti Santos, H{\'e}lade},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={65--69},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{puig2020low,
+  title={Low proficiency does not mean ab initio: A methodological footnote for linguistic transfer studies},
+  author={Puig-Mayenco, Eloi and Rothman, Jason},
+  journal={Language Acquisition},
+  volume={27},
+  number={2},
+  pages={217--226},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+
+@article{jaensch2021partial,
+  title={What about partial access to UG?},
+  author={Jaensch, Carol},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={70--74},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{altman1995statistics,
+  title={Statistics notes: Absence of evidence is not evidence of absence},
+  author={Altman, Douglas G and Bland, J Martin},
+  journal={Bmj},
+  volume={311},
+  number={7003},
+  pages={485},
+  year={1995},
+  publisher={British Medical Journal Publishing Group}
+}
+
+@article{lago2021some,
+  title={Some challenges of relating wholesale transfer approaches to L3 linguistic behavior},
+  author={Lago, Sol},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={75--78},
+  year={2021},
+  publisher={Yotk}
+}
+
+@article{marsden2021there,
+  title={When there’s no mirror image, and other L3 research design challenges},
+  author={Marsden, Heather},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={79--83},
+  year={2021},
+  publisher={York}
+}
+
+@article{miller2021retrodiction,
+  title={Retrodiction in science: With great power comes great responsibility},
+  author={Miller, David and Iverson, Michael},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={84--88},
+  year={2021},
+  publisher={John Benjamins Publishing Company}
+}
+
+@article{soares2021cognitive,
+  title={Cognitive states in third language acquisition and beyond: Theoretical and methodological paths forward},
+  author={Soares, Sergio Miguel Pereira and Rothman, Jason},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={89--95},
+  year={2021}
+}
+
+@article{slabakova2021does,
+  title={Does Full Transfer Endure in L3A?},
+  author={Slabakova, Roumyana},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={96--102},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{westergaard2021plausibility,
+  title={The plausibility of wholesale vs. property-by-property transfer in L3 acquisition},
+  author={Westergaard, Marit},
+  year={2021},
+  publisher={John Benjamins Publishing Company}
+}
+
+@article{wrembel2021transfer,
+  title={Transfer vs. dynamic cross-linguistic interactions: Exploring alternative avenues in L3 research},
+  author={Wrembel, Magdalena},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={109--115},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}
+
+@article{schspresponse,
+  title={Making models, making predictions},
+  author={Schwartz, Bonnie D and Sprouse, Rex A},
+  journal={Linguistic Approaches to Bilingualism},
+  volume={11},
+  number={1},
+  pages={116--129},
+  year={2021},
+  publisher={John Benjamins Publishing Company Amsterdam/Philadelphia}
+}

@@ -1,0 +1,494 @@
+0.9726 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.0688 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe94442d790>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe8e2a7bfd0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.0694 	EXP 	window1: mouseVisible = True
+9.0704 	EXP 	window1: mouseVisible = False
+9.0704 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.0704 	EXP 	window1: recordFrameIntervals = False
+9.2377 	EXP 	window1: recordFrameIntervals = True
+9.4188 	EXP 	Screen (0) actual frame rate measured at 59.89Hz
+9.4188 	EXP 	window1: recordFrameIntervals = False
+12.4099 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4106 	EXP 	Created prompt_collocation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prompt_collocation', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4132 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.4136 	EXP 	Created opt_a_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='opt_a_text', opacity=1.0, ori=0.0, pos=array([-0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4140 	EXP 	Created opt_b_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='opt_b_text', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4180 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4184 	EXP 	Created prompt_interpretation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prompt_interpretation', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4196 	EXP 	Created cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([ 1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+12.4201 	EXP 	Created opt_a_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_a_text_2', opacity=1.0, ori=0.0, pos=array([-0.3, -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4205 	EXP 	Created opt_b_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='opt_b_text_2', opacity=1.0, ori=0.0, pos=array([ 0.3, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.4271 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4482 	EXP 	text: autoDraw = True
+21.7060 	EXP 	Imported conditions/collocation_br.csv as conditions, 10 conditions, 4 params
+21.7070 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+21.7073 	EXP 	New trial (rep=0, index=0): OrderedDict([('prompt', 'Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)'), ('opt_a', 'super-heróis valentes'), ('opt_b', 'valentes super-heróis'), ('correct', 'opt_b')])
+21.7332 	DATA 	Keypress: space
+21.7381 	EXP 	text: autoDraw = False
+21.7381 	EXP 	prompt_collocation: height = 0.04
+21.7381 	EXP 	prompt_collocation: height = 0.04
+21.7381 	EXP 	prompt_collocation: height = 0.04
+21.7381 	EXP 	prompt_collocation: text = 'Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)'
+21.7381 	EXP 	opt_a_text: height = 0.04
+21.7381 	EXP 	opt_a_text: height = 0.04
+21.7381 	EXP 	opt_a_text: height = 0.04
+21.7381 	EXP 	opt_a_text: text = 'super-heróis valentes'
+21.7381 	EXP 	opt_b_text: height = 0.04
+21.7381 	EXP 	opt_b_text: height = 0.04
+21.7381 	EXP 	opt_b_text: height = 0.04
+21.7381 	EXP 	opt_b_text: text = 'valentes super-heróis'
+21.7381 	EXP 	cross: autoDraw = True
+22.2020 	EXP 	prompt_collocation: autoDraw = True
+22.2020 	EXP 	opt_a_text: autoDraw = True
+22.2020 	EXP 	opt_b_text: autoDraw = True
+22.2521 	EXP 	cross: autoDraw = False
+27.6530 	EXP 	New trial (rep=0, index=1): OrderedDict([('prompt', 'Era apenas uma pessoa, não duas pessoas. Foi a _______________ .'), ('opt_a', 'pessoa mesma'), ('opt_b', 'mesma pessoa'), ('correct', 'opt_b')])
+27.6639 	DATA 	Keypress: 1
+27.6689 	EXP 	prompt_collocation: autoDraw = False
+27.6689 	EXP 	cross: autoDraw = False
+27.6689 	EXP 	opt_a_text: autoDraw = False
+27.6689 	EXP 	opt_b_text: autoDraw = False
+27.6689 	EXP 	prompt_collocation: height = 0.04
+27.6689 	EXP 	prompt_collocation: height = 0.04
+27.6689 	EXP 	prompt_collocation: height = 0.04
+27.6689 	EXP 	prompt_collocation: text = 'Era apenas uma pessoa, não duas pessoas. Foi a _______________ .'
+27.6689 	EXP 	opt_a_text: height = 0.04
+27.6689 	EXP 	opt_a_text: height = 0.04
+27.6689 	EXP 	opt_a_text: height = 0.04
+27.6689 	EXP 	opt_a_text: text = 'pessoa mesma'
+27.6689 	EXP 	opt_b_text: height = 0.04
+27.6689 	EXP 	opt_b_text: height = 0.04
+27.6689 	EXP 	opt_b_text: height = 0.04
+27.6689 	EXP 	opt_b_text: text = 'mesma pessoa'
+27.6689 	EXP 	cross: autoDraw = True
+28.1518 	EXP 	prompt_collocation: autoDraw = True
+28.1518 	EXP 	opt_a_text: autoDraw = True
+28.1518 	EXP 	opt_b_text: autoDraw = True
+28.1685 	EXP 	cross: autoDraw = False
+28.7700 	EXP 	New trial (rep=0, index=2): OrderedDict([('prompt', "Entre os alunos, sempre há um equilíbrio de inteligência e estupidez em uma escola. Os _______________ estão sempre nas 'classes de honra' (estudioso)"), ('opt_a', 'estudantes estudiosos'), ('opt_b', 'estudiosos estudantes'), ('correct', 'opt_a')])
+28.7954 	DATA 	Keypress: 1
+28.7992 	EXP 	prompt_collocation: autoDraw = False
+28.7992 	EXP 	cross: autoDraw = False
+28.7992 	EXP 	opt_a_text: autoDraw = False
+28.7992 	EXP 	opt_b_text: autoDraw = False
+28.7992 	EXP 	prompt_collocation: height = 0.04
+28.7992 	EXP 	prompt_collocation: height = 0.04
+28.7992 	EXP 	prompt_collocation: height = 0.04
+28.7992 	EXP 	prompt_collocation: text = "Entre os alunos, sempre há um equilíbrio de inteligência e estupidez em uma escola. Os _______________ estão sempre nas 'classes de honra' (estudioso)"
+28.7992 	EXP 	opt_a_text: height = 0.04
+28.7992 	EXP 	opt_a_text: height = 0.04
+28.7992 	EXP 	opt_a_text: height = 0.04
+28.7992 	EXP 	opt_a_text: text = 'estudantes estudiosos'
+28.7992 	EXP 	opt_b_text: height = 0.04
+28.7992 	EXP 	opt_b_text: height = 0.04
+28.7992 	EXP 	opt_b_text: height = 0.04
+28.7992 	EXP 	opt_b_text: text = 'estudiosos estudantes'
+28.7992 	EXP 	cross: autoDraw = True
+29.2697 	EXP 	prompt_collocation: autoDraw = True
+29.2697 	EXP 	opt_a_text: autoDraw = True
+29.2697 	EXP 	opt_b_text: autoDraw = True
+29.3030 	EXP 	cross: autoDraw = False
+29.8862 	EXP 	New trial (rep=0, index=3): OrderedDict([('prompt', 'Eu a conheci há muitos anos. É uma _______________.'), ('opt_a', 'amigo velho'), ('opt_b', 'velho amigo'), ('correct', 'opt_b')])
+29.8947 	DATA 	Keypress: 1
+29.9017 	EXP 	prompt_collocation: autoDraw = False
+29.9017 	EXP 	cross: autoDraw = False
+29.9017 	EXP 	opt_a_text: autoDraw = False
+29.9017 	EXP 	opt_b_text: autoDraw = False
+29.9017 	EXP 	prompt_collocation: height = 0.04
+29.9017 	EXP 	prompt_collocation: height = 0.04
+29.9017 	EXP 	prompt_collocation: height = 0.04
+29.9017 	EXP 	prompt_collocation: text = 'Eu a conheci há muitos anos. É uma _______________.'
+29.9017 	EXP 	opt_a_text: height = 0.04
+29.9017 	EXP 	opt_a_text: height = 0.04
+29.9017 	EXP 	opt_a_text: height = 0.04
+29.9017 	EXP 	opt_a_text: text = 'amigo velho'
+29.9017 	EXP 	opt_b_text: height = 0.04
+29.9017 	EXP 	opt_b_text: height = 0.04
+29.9017 	EXP 	opt_b_text: height = 0.04
+29.9017 	EXP 	opt_b_text: text = 'velho amigo'
+29.9017 	EXP 	cross: autoDraw = True
+30.3864 	EXP 	prompt_collocation: autoDraw = True
+30.3864 	EXP 	opt_a_text: autoDraw = True
+30.3864 	EXP 	opt_b_text: autoDraw = True
+30.4033 	EXP 	cross: autoDraw = False
+30.8033 	EXP 	New trial (rep=0, index=4): OrderedDict([('prompt', 'Meus amigos não têm dinheiro. São _______________.'), ('opt_a', 'amigos pobres'), ('opt_b', 'pobres amigos'), ('correct', 'opt_a')])
+30.8123 	DATA 	Keypress: 1
+30.8186 	EXP 	prompt_collocation: autoDraw = False
+30.8186 	EXP 	cross: autoDraw = False
+30.8186 	EXP 	opt_a_text: autoDraw = False
+30.8186 	EXP 	opt_b_text: autoDraw = False
+30.8186 	EXP 	prompt_collocation: height = 0.04
+30.8186 	EXP 	prompt_collocation: height = 0.04
+30.8186 	EXP 	prompt_collocation: height = 0.04
+30.8186 	EXP 	prompt_collocation: text = 'Meus amigos não têm dinheiro. São _______________.'
+30.8186 	EXP 	opt_a_text: height = 0.04
+30.8186 	EXP 	opt_a_text: height = 0.04
+30.8186 	EXP 	opt_a_text: height = 0.04
+30.8186 	EXP 	opt_a_text: text = 'amigos pobres'
+30.8186 	EXP 	opt_b_text: height = 0.04
+30.8186 	EXP 	opt_b_text: height = 0.04
+30.8186 	EXP 	opt_b_text: height = 0.04
+30.8186 	EXP 	opt_b_text: text = 'pobres amigos'
+30.8186 	EXP 	cross: autoDraw = True
+31.3023 	EXP 	prompt_collocation: autoDraw = True
+31.3023 	EXP 	opt_a_text: autoDraw = True
+31.3023 	EXP 	opt_b_text: autoDraw = True
+31.3185 	EXP 	cross: autoDraw = False
+31.5864 	EXP 	New trial (rep=0, index=5): OrderedDict([('prompt', 'Alguns pais estão mais envolvidos na vida de seus filhos do que outros. Os _______________ brinca com seus filhos à noite antes de adormecer. (afetuoso)'), ('opt_a', 'pais afetuosos'), ('opt_b', 'afetuosos pais'), ('correct', 'opt_a')])
+31.5985 	DATA 	Keypress: 1
+31.6024 	EXP 	prompt_collocation: autoDraw = False
+31.6024 	EXP 	cross: autoDraw = False
+31.6024 	EXP 	opt_a_text: autoDraw = False
+31.6024 	EXP 	opt_b_text: autoDraw = False
+31.6024 	EXP 	prompt_collocation: height = 0.04
+31.6024 	EXP 	prompt_collocation: height = 0.04
+31.6024 	EXP 	prompt_collocation: height = 0.04
+31.6024 	EXP 	prompt_collocation: text = 'Alguns pais estão mais envolvidos na vida de seus filhos do que outros. Os _______________ brinca com seus filhos à noite antes de adormecer. (afetuoso)'
+31.6024 	EXP 	opt_a_text: height = 0.04
+31.6024 	EXP 	opt_a_text: height = 0.04
+31.6024 	EXP 	opt_a_text: height = 0.04
+31.6024 	EXP 	opt_a_text: text = 'pais afetuosos'
+31.6024 	EXP 	opt_b_text: height = 0.04
+31.6024 	EXP 	opt_b_text: height = 0.04
+31.6024 	EXP 	opt_b_text: height = 0.04
+31.6024 	EXP 	opt_b_text: text = 'afetuosos pais'
+31.6024 	EXP 	cross: autoDraw = True
+32.1024 	EXP 	prompt_collocation: autoDraw = True
+32.1024 	EXP 	cross: autoDraw = False
+32.1024 	EXP 	opt_a_text: autoDraw = True
+32.1024 	EXP 	opt_b_text: autoDraw = True
+32.4545 	EXP 	New trial (rep=0, index=6): OrderedDict([('prompt', 'Há muitos pais na platéia da festa. Há crianças que jogam muito bem, mas as que jogam mal são uma vergonha para os pais. Os _______________ batem palmas e gritam por seus filhos. (orgulhoso)'), ('opt_a', 'pais orgulhosos'), ('opt_b', 'orgulhosos pais'), ('correct', 'opt_a')])
+32.4674 	DATA 	Keypress: 1
+32.4714 	EXP 	prompt_collocation: autoDraw = False
+32.4714 	EXP 	cross: autoDraw = False
+32.4714 	EXP 	opt_a_text: autoDraw = False
+32.4714 	EXP 	opt_b_text: autoDraw = False
+32.4714 	EXP 	prompt_collocation: height = 0.04
+32.4714 	EXP 	prompt_collocation: height = 0.04
+32.4714 	EXP 	prompt_collocation: height = 0.04
+32.4714 	EXP 	prompt_collocation: text = 'Há muitos pais na platéia da festa. Há crianças que jogam muito bem, mas as que jogam mal são uma vergonha para os pais. Os _______________ batem palmas e gritam por seus filhos. (orgulhoso)'
+32.4714 	EXP 	opt_a_text: height = 0.04
+32.4714 	EXP 	opt_a_text: height = 0.04
+32.4714 	EXP 	opt_a_text: height = 0.04
+32.4714 	EXP 	opt_a_text: text = 'pais orgulhosos'
+32.4714 	EXP 	opt_b_text: height = 0.04
+32.4714 	EXP 	opt_b_text: height = 0.04
+32.4714 	EXP 	opt_b_text: height = 0.04
+32.4714 	EXP 	opt_b_text: text = 'orgulhosos pais'
+32.4714 	EXP 	cross: autoDraw = True
+32.9692 	EXP 	prompt_collocation: autoDraw = True
+32.9692 	EXP 	opt_a_text: autoDraw = True
+32.9692 	EXP 	opt_b_text: autoDraw = True
+32.9864 	EXP 	cross: autoDraw = False
+33.4375 	EXP 	New trial (rep=0, index=7): OrderedDict([('prompt', 'Esse livro é a edição do ano passado - precisamos do ________'), ('opt_a', 'Livro novo'), ('opt_b', 'livro novo'), ('correct', 'opt_b')])
+33.4467 	DATA 	Keypress: 1
+33.4518 	EXP 	prompt_collocation: autoDraw = False
+33.4518 	EXP 	cross: autoDraw = False
+33.4518 	EXP 	opt_a_text: autoDraw = False
+33.4518 	EXP 	opt_b_text: autoDraw = False
+33.4518 	EXP 	prompt_collocation: height = 0.04
+33.4518 	EXP 	prompt_collocation: height = 0.04
+33.4518 	EXP 	prompt_collocation: height = 0.04
+33.4518 	EXP 	prompt_collocation: text = 'Esse livro é a edição do ano passado - precisamos do ________'
+33.4518 	EXP 	opt_a_text: height = 0.04
+33.4518 	EXP 	opt_a_text: height = 0.04
+33.4518 	EXP 	opt_a_text: height = 0.04
+33.4518 	EXP 	opt_a_text: text = 'Livro novo'
+33.4518 	EXP 	opt_b_text: height = 0.04
+33.4518 	EXP 	opt_b_text: height = 0.04
+33.4518 	EXP 	opt_b_text: height = 0.04
+33.4518 	EXP 	opt_b_text: text = 'livro novo'
+33.4518 	EXP 	cross: autoDraw = True
+33.9526 	EXP 	prompt_collocation: autoDraw = True
+33.9526 	EXP 	cross: autoDraw = False
+33.9526 	EXP 	opt_a_text: autoDraw = True
+33.9526 	EXP 	opt_b_text: autoDraw = True
+34.2697 	EXP 	New trial (rep=0, index=8): OrderedDict([('prompt', 'O professor ensina dois cursos que você pode fazer. Há _______________.'), ('opt_a', 'opções várias'), ('opt_b', 'várias opções'), ('correct', 'opt_b')])
+34.2787 	DATA 	Keypress: 1
+34.2850 	EXP 	prompt_collocation: autoDraw = False
+34.2850 	EXP 	cross: autoDraw = False
+34.2850 	EXP 	opt_a_text: autoDraw = False
+34.2850 	EXP 	opt_b_text: autoDraw = False
+34.2850 	EXP 	prompt_collocation: height = 0.04
+34.2850 	EXP 	prompt_collocation: height = 0.04
+34.2850 	EXP 	prompt_collocation: height = 0.04
+34.2850 	EXP 	prompt_collocation: text = 'O professor ensina dois cursos que você pode fazer. Há _______________.'
+34.2850 	EXP 	opt_a_text: height = 0.04
+34.2850 	EXP 	opt_a_text: height = 0.04
+34.2850 	EXP 	opt_a_text: height = 0.04
+34.2850 	EXP 	opt_a_text: text = 'opções várias'
+34.2850 	EXP 	opt_b_text: height = 0.04
+34.2850 	EXP 	opt_b_text: height = 0.04
+34.2850 	EXP 	opt_b_text: height = 0.04
+34.2850 	EXP 	opt_b_text: text = 'várias opções'
+34.2850 	EXP 	cross: autoDraw = True
+34.7697 	EXP 	prompt_collocation: autoDraw = True
+34.7697 	EXP 	opt_a_text: autoDraw = True
+34.7697 	EXP 	opt_b_text: autoDraw = True
+34.7859 	EXP 	cross: autoDraw = False
+35.1035 	EXP 	New trial (rep=0, index=9): OrderedDict([('prompt', 'Nem todo garoto da minha escola é Atlético, mas os _______________ percorrem 7 milhas todos os dias.'), ('opt_a', 'meninos fortes'), ('opt_b', 'fortes meninos'), ('correct', 'opt_a')])
+35.1135 	DATA 	Keypress: 1
+35.1186 	EXP 	prompt_collocation: autoDraw = False
+35.1186 	EXP 	cross: autoDraw = False
+35.1186 	EXP 	opt_a_text: autoDraw = False
+35.1186 	EXP 	opt_b_text: autoDraw = False
+35.1186 	EXP 	prompt_collocation: height = 0.04
+35.1186 	EXP 	prompt_collocation: height = 0.04
+35.1186 	EXP 	prompt_collocation: height = 0.04
+35.1186 	EXP 	prompt_collocation: text = 'Nem todo garoto da minha escola é Atlético, mas os _______________ percorrem 7 milhas todos os dias.'
+35.1186 	EXP 	opt_a_text: height = 0.04
+35.1186 	EXP 	opt_a_text: height = 0.04
+35.1186 	EXP 	opt_a_text: height = 0.04
+35.1186 	EXP 	opt_a_text: text = 'meninos fortes'
+35.1186 	EXP 	opt_b_text: height = 0.04
+35.1186 	EXP 	opt_b_text: height = 0.04
+35.1186 	EXP 	opt_b_text: height = 0.04
+35.1186 	EXP 	opt_b_text: text = 'fortes meninos'
+35.1186 	EXP 	cross: autoDraw = True
+35.6025 	EXP 	prompt_collocation: autoDraw = True
+35.6025 	EXP 	opt_a_text: autoDraw = True
+35.6025 	EXP 	opt_b_text: autoDraw = True
+35.6188 	EXP 	cross: autoDraw = False
+35.9222 	DATA 	Keypress: 1
+35.9354 	EXP 	prompt_collocation: autoDraw = False
+35.9354 	EXP 	cross: autoDraw = False
+35.9354 	EXP 	opt_a_text: autoDraw = False
+35.9354 	EXP 	opt_b_text: autoDraw = False
+35.9354 	EXP 	text_2: autoDraw = True
+39.0915 	EXP 	Imported conditions/interpretation_br.csv as conditions, 10 conditions, 4 params
+39.0918 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+39.0921 	EXP 	New trial (rep=0, index=0): OrderedDict([('prompt', 'Mariela é uma velha amiga de Florence.'), ('opt_a', 'Muitos anos atrás eles são amigos.'), ('opt_b', 'Mariela é velha.'), ('correct', 'opt_a')])
+39.1055 	DATA 	Keypress: space
+39.1116 	EXP 	text_2: autoDraw = False
+39.1116 	EXP 	prompt_interpretation: height = 0.04
+39.1116 	EXP 	prompt_interpretation: height = 0.04
+39.1116 	EXP 	prompt_interpretation: height = 0.04
+39.1116 	EXP 	prompt_interpretation: text = 'Mariela é uma velha amiga de Florence.'
+39.1116 	EXP 	opt_a_text_2: height = 0.03
+39.1116 	EXP 	opt_a_text_2: height = 0.03
+39.1116 	EXP 	opt_a_text_2: height = 0.03
+39.1116 	EXP 	opt_a_text_2: text = 'Muitos anos atrás eles são amigos.'
+39.1116 	EXP 	opt_b_text_2: height = 0.03
+39.1116 	EXP 	opt_b_text_2: height = 0.03
+39.1116 	EXP 	opt_b_text_2: height = 0.03
+39.1116 	EXP 	opt_b_text_2: text = 'Mariela é velha.'
+39.1116 	EXP 	cross_2: autoDraw = True
+39.6026 	EXP 	prompt_interpretation: autoDraw = True
+39.6026 	EXP 	opt_a_text_2: autoDraw = True
+39.6026 	EXP 	opt_b_text_2: autoDraw = True
+39.6192 	EXP 	cross_2: autoDraw = False
+40.5711 	EXP 	New trial (rep=0, index=1): OrderedDict([('prompt', 'Marta é a pessoa única de quem falei.'), ('opt_a', 'Não há ninguém (tão especial) quanto Marta, que eu te disse.'), ('opt_b', 'Não contei a você sobre mais ninguém, além de Marta.'), ('correct', 'opt_b')])
+40.5838 	DATA 	Keypress: 1
+40.5877 	EXP 	prompt_interpretation: autoDraw = False
+40.5877 	EXP 	cross_2: autoDraw = False
+40.5877 	EXP 	opt_a_text_2: autoDraw = False
+40.5877 	EXP 	opt_b_text_2: autoDraw = False
+40.5877 	EXP 	prompt_interpretation: height = 0.04
+40.5877 	EXP 	prompt_interpretation: height = 0.04
+40.5877 	EXP 	prompt_interpretation: height = 0.04
+40.5877 	EXP 	prompt_interpretation: text = 'Marta é a pessoa única de quem falei.'
+40.5877 	EXP 	opt_a_text_2: height = 0.03
+40.5877 	EXP 	opt_a_text_2: height = 0.03
+40.5877 	EXP 	opt_a_text_2: height = 0.03
+40.5877 	EXP 	opt_a_text_2: text = 'Não há ninguém (tão especial) quanto Marta, que eu te disse.'
+40.5877 	EXP 	opt_b_text_2: height = 0.03
+40.5877 	EXP 	opt_b_text_2: height = 0.03
+40.5877 	EXP 	opt_b_text_2: height = 0.03
+40.5877 	EXP 	opt_b_text_2: text = 'Não contei a você sobre mais ninguém, além de Marta.'
+40.5877 	EXP 	cross_2: autoDraw = True
+41.0694 	EXP 	prompt_interpretation: autoDraw = True
+41.0694 	EXP 	opt_a_text_2: autoDraw = True
+41.0694 	EXP 	opt_b_text_2: autoDraw = True
+41.1024 	EXP 	cross_2: autoDraw = False
+41.5861 	EXP 	New trial (rep=0, index=2): OrderedDict([('prompt', 'Seus pais falam uma rara língua.'), ('opt_a', 'Eles falam uma linguagem estranha.'), ('opt_b', 'Eles falam um idioma que muito poucas pessoas falam.'), ('correct', 'opt_b')])
+41.5952 	DATA 	Keypress: 1
+41.6020 	EXP 	prompt_interpretation: autoDraw = False
+41.6020 	EXP 	cross_2: autoDraw = False
+41.6020 	EXP 	opt_a_text_2: autoDraw = False
+41.6020 	EXP 	opt_b_text_2: autoDraw = False
+41.6020 	EXP 	prompt_interpretation: height = 0.04
+41.6020 	EXP 	prompt_interpretation: height = 0.04
+41.6020 	EXP 	prompt_interpretation: height = 0.04
+41.6020 	EXP 	prompt_interpretation: text = 'Seus pais falam uma rara língua.'
+41.6020 	EXP 	opt_a_text_2: height = 0.03
+41.6020 	EXP 	opt_a_text_2: height = 0.03
+41.6020 	EXP 	opt_a_text_2: height = 0.03
+41.6020 	EXP 	opt_a_text_2: text = 'Eles falam uma linguagem estranha.'
+41.6020 	EXP 	opt_b_text_2: height = 0.03
+41.6020 	EXP 	opt_b_text_2: height = 0.03
+41.6020 	EXP 	opt_b_text_2: height = 0.03
+41.6020 	EXP 	opt_b_text_2: text = 'Eles falam um idioma que muito poucas pessoas falam.'
+41.6020 	EXP 	cross_2: autoDraw = True
+42.0855 	EXP 	prompt_interpretation: autoDraw = True
+42.0855 	EXP 	opt_a_text_2: autoDraw = True
+42.0855 	EXP 	opt_b_text_2: autoDraw = True
+42.1022 	EXP 	cross_2: autoDraw = False
+42.5370 	EXP 	New trial (rep=0, index=3): OrderedDict([('prompt', 'El cuadro grande es muy caro.'), ('opt_a', 'El cuadro es impresionante y cuesta mucho dinero'), ('opt_b', 'El cuadro es enorme y cuesta mucho dinero'), ('correct', 'opt_b')])
+42.5469 	DATA 	Keypress: 1
+42.5523 	EXP 	prompt_interpretation: autoDraw = False
+42.5523 	EXP 	cross_2: autoDraw = False
+42.5523 	EXP 	opt_a_text_2: autoDraw = False
+42.5523 	EXP 	opt_b_text_2: autoDraw = False
+42.5523 	EXP 	prompt_interpretation: height = 0.04
+42.5523 	EXP 	prompt_interpretation: height = 0.04
+42.5523 	EXP 	prompt_interpretation: height = 0.04
+42.5523 	EXP 	prompt_interpretation: text = 'El cuadro grande es muy caro.'
+42.5523 	EXP 	opt_a_text_2: height = 0.03
+42.5523 	EXP 	opt_a_text_2: height = 0.03
+42.5523 	EXP 	opt_a_text_2: height = 0.03
+42.5523 	EXP 	opt_a_text_2: text = 'El cuadro es impresionante y cuesta mucho dinero'
+42.5523 	EXP 	opt_b_text_2: height = 0.03
+42.5523 	EXP 	opt_b_text_2: height = 0.03
+42.5523 	EXP 	opt_b_text_2: height = 0.03
+42.5523 	EXP 	opt_b_text_2: text = 'El cuadro es enorme y cuesta mucho dinero'
+42.5523 	EXP 	cross_2: autoDraw = True
+43.0361 	EXP 	prompt_interpretation: autoDraw = True
+43.0361 	EXP 	opt_a_text_2: autoDraw = True
+43.0361 	EXP 	opt_b_text_2: autoDraw = True
+43.0527 	EXP 	cross_2: autoDraw = False
+43.4032 	EXP 	New trial (rep=0, index=4): OrderedDict([('prompt', 'Naquela casa, mora um homem sozinho.'), ('opt_a', 'Apenas um homem mora em casa.'), ('opt_b', 'O homem se sente sozinho.'), ('correct', 'opt_a')])
+43.4120 	DATA 	Keypress: 1
+43.4187 	EXP 	prompt_interpretation: autoDraw = False
+43.4187 	EXP 	cross_2: autoDraw = False
+43.4187 	EXP 	opt_a_text_2: autoDraw = False
+43.4187 	EXP 	opt_b_text_2: autoDraw = False
+43.4187 	EXP 	prompt_interpretation: height = 0.04
+43.4187 	EXP 	prompt_interpretation: height = 0.04
+43.4187 	EXP 	prompt_interpretation: height = 0.04
+43.4187 	EXP 	prompt_interpretation: text = 'Naquela casa, mora um homem sozinho.'
+43.4187 	EXP 	opt_a_text_2: height = 0.03
+43.4187 	EXP 	opt_a_text_2: height = 0.03
+43.4187 	EXP 	opt_a_text_2: height = 0.03
+43.4187 	EXP 	opt_a_text_2: text = 'Apenas um homem mora em casa.'
+43.4187 	EXP 	opt_b_text_2: height = 0.03
+43.4187 	EXP 	opt_b_text_2: height = 0.03
+43.4187 	EXP 	opt_b_text_2: height = 0.03
+43.4187 	EXP 	opt_b_text_2: text = 'O homem se sente sozinho.'
+43.4187 	EXP 	cross_2: autoDraw = True
+43.9027 	EXP 	prompt_interpretation: autoDraw = True
+43.9027 	EXP 	opt_a_text_2: autoDraw = True
+43.9027 	EXP 	opt_b_text_2: autoDraw = True
+43.9193 	EXP 	cross_2: autoDraw = False
+44.2872 	EXP 	New trial (rep=0, index=5): OrderedDict([('prompt', 'Santiago comprou um novo computador.'), ('opt_a', 'O computador era 100% novo.'), ('opt_b', 'Comprei outro computador.'), ('correct', 'opt_a')])
+44.2983 	DATA 	Keypress: 1
+44.3026 	EXP 	prompt_interpretation: autoDraw = False
+44.3026 	EXP 	cross_2: autoDraw = False
+44.3026 	EXP 	opt_a_text_2: autoDraw = False
+44.3026 	EXP 	opt_b_text_2: autoDraw = False
+44.3026 	EXP 	prompt_interpretation: height = 0.04
+44.3026 	EXP 	prompt_interpretation: height = 0.04
+44.3026 	EXP 	prompt_interpretation: height = 0.04
+44.3026 	EXP 	prompt_interpretation: text = 'Santiago comprou um novo computador.'
+44.3026 	EXP 	opt_a_text_2: height = 0.03
+44.3026 	EXP 	opt_a_text_2: height = 0.03
+44.3026 	EXP 	opt_a_text_2: height = 0.03
+44.3026 	EXP 	opt_a_text_2: text = 'O computador era 100% novo.'
+44.3026 	EXP 	opt_b_text_2: height = 0.03
+44.3026 	EXP 	opt_b_text_2: height = 0.03
+44.3026 	EXP 	opt_b_text_2: height = 0.03
+44.3026 	EXP 	opt_b_text_2: text = 'Comprei outro computador.'
+44.3026 	EXP 	cross_2: autoDraw = True
+44.7860 	EXP 	prompt_interpretation: autoDraw = True
+44.7860 	EXP 	opt_a_text_2: autoDraw = True
+44.7860 	EXP 	opt_b_text_2: autoDraw = True
+44.8023 	EXP 	cross_2: autoDraw = False
+45.2037 	EXP 	New trial (rep=0, index=6): OrderedDict([('prompt', 'As grandes obras são impressionantes.'), ('opt_a', 'Os trabalhos não são pequenos.'), ('opt_b', 'Os trabalhos são ótimos.'), ('correct', 'opt_b')])
+45.2120 	DATA 	Keypress: 1
+45.2191 	EXP 	prompt_interpretation: autoDraw = False
+45.2191 	EXP 	cross_2: autoDraw = False
+45.2191 	EXP 	opt_a_text_2: autoDraw = False
+45.2191 	EXP 	opt_b_text_2: autoDraw = False
+45.2191 	EXP 	prompt_interpretation: height = 0.04
+45.2191 	EXP 	prompt_interpretation: height = 0.04
+45.2191 	EXP 	prompt_interpretation: height = 0.04
+45.2191 	EXP 	prompt_interpretation: text = 'As grandes obras são impressionantes.'
+45.2191 	EXP 	opt_a_text_2: height = 0.03
+45.2191 	EXP 	opt_a_text_2: height = 0.03
+45.2191 	EXP 	opt_a_text_2: height = 0.03
+45.2191 	EXP 	opt_a_text_2: text = 'Os trabalhos não são pequenos.'
+45.2191 	EXP 	opt_b_text_2: height = 0.03
+45.2191 	EXP 	opt_b_text_2: height = 0.03
+45.2191 	EXP 	opt_b_text_2: height = 0.03
+45.2191 	EXP 	opt_b_text_2: text = 'Os trabalhos são ótimos.'
+45.2191 	EXP 	cross_2: autoDraw = True
+45.7027 	EXP 	prompt_interpretation: autoDraw = True
+45.7027 	EXP 	opt_a_text_2: autoDraw = True
+45.7027 	EXP 	opt_b_text_2: autoDraw = True
+45.7193 	EXP 	cross_2: autoDraw = False
+46.0374 	EXP 	New trial (rep=0, index=7): OrderedDict([('prompt', 'Minha avó tem duas lâmpadas antigas na sala.'), ('opt_a', 'Ele tem duas lâmpadas velhas na sala.'), ('opt_b', 'Possui dois Lumpears na sala de estar que as relíquias.'), ('correct', 'opt_a')])
+46.0487 	DATA 	Keypress: 1
+46.0527 	EXP 	prompt_interpretation: autoDraw = False
+46.0527 	EXP 	cross_2: autoDraw = False
+46.0527 	EXP 	opt_a_text_2: autoDraw = False
+46.0527 	EXP 	opt_b_text_2: autoDraw = False
+46.0527 	EXP 	prompt_interpretation: height = 0.04
+46.0527 	EXP 	prompt_interpretation: height = 0.04
+46.0527 	EXP 	prompt_interpretation: height = 0.04
+46.0527 	EXP 	prompt_interpretation: text = 'Minha avó tem duas lâmpadas antigas na sala.'
+46.0527 	EXP 	opt_a_text_2: height = 0.03
+46.0527 	EXP 	opt_a_text_2: height = 0.03
+46.0527 	EXP 	opt_a_text_2: height = 0.03
+46.0527 	EXP 	opt_a_text_2: text = 'Ele tem duas lâmpadas velhas na sala.'
+46.0527 	EXP 	opt_b_text_2: height = 0.03
+46.0527 	EXP 	opt_b_text_2: height = 0.03
+46.0527 	EXP 	opt_b_text_2: height = 0.03
+46.0527 	EXP 	opt_b_text_2: text = 'Possui dois Lumpears na sala de estar que as relíquias.'
+46.0527 	EXP 	cross_2: autoDraw = True
+46.5361 	EXP 	prompt_interpretation: autoDraw = True
+46.5361 	EXP 	opt_a_text_2: autoDraw = True
+46.5361 	EXP 	opt_b_text_2: autoDraw = True
+46.5525 	EXP 	cross_2: autoDraw = False
+47.4539 	EXP 	New trial (rep=0, index=8): OrderedDict([('prompt', 'O próprio presidente conversou com a classe.'), ('opt_a', 'O presidente, e não outra pessoa, conversou com a classe.'), ('opt_b', 'O presidente que já havia falado com a classe.'), ('correct', 'opt_a')])
+47.4633 	DATA 	Keypress: 1
+47.4690 	EXP 	prompt_interpretation: autoDraw = False
+47.4690 	EXP 	cross_2: autoDraw = False
+47.4690 	EXP 	opt_a_text_2: autoDraw = False
+47.4690 	EXP 	opt_b_text_2: autoDraw = False
+47.4690 	EXP 	prompt_interpretation: height = 0.04
+47.4690 	EXP 	prompt_interpretation: height = 0.04
+47.4690 	EXP 	prompt_interpretation: height = 0.04
+47.4690 	EXP 	prompt_interpretation: text = 'O próprio presidente conversou com a classe.'
+47.4690 	EXP 	opt_a_text_2: height = 0.03
+47.4690 	EXP 	opt_a_text_2: height = 0.03
+47.4690 	EXP 	opt_a_text_2: height = 0.03
+47.4690 	EXP 	opt_a_text_2: text = 'O presidente, e não outra pessoa, conversou com a classe.'
+47.4690 	EXP 	opt_b_text_2: height = 0.03
+47.4690 	EXP 	opt_b_text_2: height = 0.03
+47.4690 	EXP 	opt_b_text_2: height = 0.03
+47.4690 	EXP 	opt_b_text_2: text = 'O presidente que já havia falado com a classe.'
+47.4690 	EXP 	cross_2: autoDraw = True
+47.9697 	EXP 	prompt_interpretation: autoDraw = True
+47.9697 	EXP 	cross_2: autoDraw = False
+47.9697 	EXP 	opt_a_text_2: autoDraw = True
+47.9697 	EXP 	opt_b_text_2: autoDraw = True
+48.9038 	EXP 	New trial (rep=0, index=9): OrderedDict([('prompt', 'Mi amigo viejo viene a comer con nosotros '), ('opt_a', 'Mi amigo ha sido mi amigo por muchos años'), ('opt_b', 'Mi amigo es mayor'), ('correct', 'opt_b')])
+48.9123 	DATA 	Keypress: 1
+48.9190 	EXP 	prompt_interpretation: autoDraw = False
+48.9190 	EXP 	cross_2: autoDraw = False
+48.9190 	EXP 	opt_a_text_2: autoDraw = False
+48.9190 	EXP 	opt_b_text_2: autoDraw = False
+48.9190 	EXP 	prompt_interpretation: height = 0.04
+48.9190 	EXP 	prompt_interpretation: height = 0.04
+48.9190 	EXP 	prompt_interpretation: height = 0.04
+48.9190 	EXP 	prompt_interpretation: text = 'Mi amigo viejo viene a comer con nosotros '
+48.9190 	EXP 	opt_a_text_2: height = 0.03
+48.9190 	EXP 	opt_a_text_2: height = 0.03
+48.9190 	EXP 	opt_a_text_2: height = 0.03
+48.9190 	EXP 	opt_a_text_2: text = 'Mi amigo ha sido mi amigo por muchos años'
+48.9190 	EXP 	opt_b_text_2: height = 0.03
+48.9190 	EXP 	opt_b_text_2: height = 0.03
+48.9190 	EXP 	opt_b_text_2: height = 0.03
+48.9190 	EXP 	opt_b_text_2: text = 'Mi amigo es mayor'
+48.9190 	EXP 	cross_2: autoDraw = True
+49.4204 	EXP 	prompt_interpretation: autoDraw = True
+49.4204 	EXP 	cross_2: autoDraw = False
+49.4204 	EXP 	opt_a_text_2: autoDraw = True
+49.4204 	EXP 	opt_b_text_2: autoDraw = True
+55.2390 	DATA 	Keypress: 1
+55.2529 	EXP 	prompt_interpretation: autoDraw = False
+55.2529 	EXP 	cross_2: autoDraw = False
+55.2529 	EXP 	opt_a_text_2: autoDraw = False
+55.2529 	EXP 	opt_b_text_2: autoDraw = False
+55.2529 	EXP 	text_3: autoDraw = True
+56.0381 	DATA 	Keypress: 1
+56.5800 	DATA 	Keypress: escape
+57.1162 	EXP 	window1: mouseVisible = True

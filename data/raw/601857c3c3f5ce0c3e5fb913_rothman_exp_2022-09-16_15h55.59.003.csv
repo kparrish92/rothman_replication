@@ -1,0 +1,3 @@
+﻿port_type.keys,port_type.rt,participant,session,date,expName,psychopyVersion,OS,frameRate,choice.keys,choice.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,prompt,opt_a,opt_b,correct
+1,25.6246,601857c3c3f5ce0c3e5fb913,001,2022-09-16_15h55.59.003,rothman_exp,2022.2.3,Win32,165.7275439,,,,,,,,,,,
+,,601857c3c3f5ce0c3e5fb913,001,2022-09-16_15h55.59.003,rothman_exp,2022.2.3,Win32,165.7275439,1,14.9889,0,0,0,1,1,Esse livro é a edição do ano passado - precisamos do ________,Livro novo,livro novo,opt_b

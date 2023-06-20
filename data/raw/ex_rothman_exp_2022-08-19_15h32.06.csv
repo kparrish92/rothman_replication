@@ -1,0 +1,5 @@
+﻿key_resp.keys,key_resp.rt,participant,session,date,expName,psychopyVersion,OS,frameRate,choice.keys,choice.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,prompt,opt_a,opt_b,correct
+space,0.96,ex,001,2022-08-19_15h32.06,rothman_exp,2022.2.3,MacIntel,8.064516129,,,,,,,,,,,
+,,ex,001,2022-08-19_15h32.06,rothman_exp,2022.2.3,MacIntel,8.064516129,1,0.519,0,0,0,7,1,"Há muitos pais na platéia da festa. Há crianças que jogam muito bem, mas as que jogam mal são uma vergonha para os pais. Os _______________ batem palmas e gritam por seus filhos. (orgulhoso)",pais orgulhosos,orgulhosos pais,opt_a
+,,ex,001,2022-08-19_15h32.06,rothman_exp,2022.2.3,MacIntel,8.064516129,1,0.285,0,1,1,6,1,"Nem todo garoto da minha escola é Atlético, mas os _______________ percorrem 7 milhas todos os dias.",meninos fortes,fortes meninos,opt_a
+,,ex,001,2022-08-19_15h32.06,rothman_exp,2022.2.3,MacIntel,8.064516129,1,0.175,0,2,2,3,1,O professor ensina dois cursos que você pode fazer. Há _______________.,opções várias,várias opções,opt_b

@@ -1,0 +1,168 @@
+---
+author: "Kyle Parrish"
+date: "3/31/22"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+mainfont: Times New Roman
+header-includes:
+    - \usepackage{setspace}\doublespacing
+fontsize: 12pt
+---
+
+\begin{center}
+Proposal: Special Issue in Studies in Second Language Acquisition
+\end{center}
+
+  **Authors**: Kyle Parrish
+
+  **Affiliations**: Rutgers University 
+
+  **Email**: kyle.parrish@rutgers.edu
+
+  **Title**: A Replication of Rothman (2011): L3 syntactic transfer selectivity and typological determinacy: The typological primacy model
+
+\clearpage
+
+### Study to be replicated and justification
+
+  I propose a replication of Rothman (2011), a seminal study in the field of third language acquisition.
+In this study, the Typological Primacy Model (TPM) was formally introduced and the model has had a lasting impact on the field over the last decade. 
+A key research question in third language research has been how bilinguals are impacted by their known languages during the process of acquiring a third language.
+As a result, the field has produced several models of third language (L3) acquisition which attempt to predict how patterns of influence from either the L1 or L2 will occur during third language learning. 
+The TPM predicts that only the psychotypologically closer source language between the L1 and L2 holistically influences the L3.
+This prediction stands in contrast to competing models, which suggest that source language influence in L3 acquisition occurs from just the L2 (Bardel & Falk, 2007) or on a property-by-property basis (Westergaard et al. 2017).
+It is this claim that only one source language, rather than a combination of both L1 and L2, influences the L3 during acquisition that motivates this replication. 
+
+In the original study, speakers of L3 Brazilian Portuguese who spoke L1 English and L2 Spanish, and speakers of L3 Spanish who spoke L1 Italian and L2 English completed both a Semantic interpretation task and a Context-based Collocation Task in which their perception and production of adjective placement relative to a noun impacted meaning. 
+The study was carried out with the goal being to examine whether these two L3 groups would perform differently on tasks in their respective third languages.
+If these groups did perform differently, it would suggest that order of acquisition is a more reliable predictor of cross-linguistic influence (CLI) during the acquisition of a new language by bilinguals, since the source language in which adjective order was similar to the L3 in the two groups was the L1 in one case and the L2 in the other.
+On the other hand, if the groups performed similarly, it would indicate that relative typological similarity between the three languages better predicts the CLI in L3 acquisition. 
+The results of a statistical analysis suggested, by the lack of a main effect of group in a one-way ANOVA, that the two L3 groups were performing similarly on both experimental tasks, and was taken as evidence that the more typological similarity similar, rather than order of acquisition predicted performance in the L3 task.
+
+I propose a replication of this study for three primary reasons, suggesting that higher samples and more appropriate statistical tests are warranted to match the narrative conclusions of the original study, namely that there was no difference between L3 groups in the experimental tasks.
+First, the sample size (n = 15 and n = 12 in the L3 groups) of the original study is likely too low and can be reasonably increased by benefiting from advances in online data collection methods in recent years.
+Increasing the sample size decreases the possibility that the observed data are due to sampling error and increases the justification for authors to extrapolate their findings to larger groups or populations. 
+Second, in addition to replicating the original analysis, additional methods of testing for equivalence can be used to strengthen claims that no practical difference between L3 groups exist, such as a Test of Equivalence (Lakens, 2017), or a Bayesian Region of Practical Equivalence (the HDI + ROPE Decision Rule; Kruschke, 2018).
+The original study concluded that no differences existed between two groups using the lack of a main effect in an ANOVA as evidence, but this conclusion is likely erroneous given the small sample size. 
+Finally, adjustments to the L3 groups and additional groups can be included to evaluate the predictions of newer models relative to those of the TPM.
+In particular, the addition of so-called subtractive groups (see Westergaard et al. 2017) will be added to determine whether groups who learn the same language as an L2 or L3 differ in their performance on the experimental tasks.
+If this were the case, it would suggest that L3 learning and L2 learning are distinct and whole-language influence could be called into question.
+
+### Type of replication and variable modification
+
+A close replication is proposed in which there are two changes to the original design, in addition to the re-creation of the experimental tasks.
+Unfortunately, after contacting the original author, it has been determined that the original materials have been lost. 
+However, the tasks were described in the original study in sufficient detail to allow for similar tasks to be created.
+As a result, using the examples of both the Semantic Interpretation task and the Context-based Collocation Task from the original text, new versions of these tasks will be created in Brazilian Portuguese and Spanish. 
+Next, the proficiency measure LexTALE will be used rather than the two measures of proficiency used in the original study (a cloze test and a general grammar test).
+Fortunately, the LexTALE is likely both faster and easier to administer online, and available in English, Spanish and Brazilian Portuguese (Lemhöfer & Broersma, 2012; Izura et al., 2016; Zhou & Li, 2021).
+The LexTALE is a lexical decision task that measures L2 vocabulary size as a proxy to proficiency and has been shown to correlate to other L2 measures of proficiency (Lemhöfer & Broersma, 2012).
+
+Other changes are the use of true mirror-image groups of L3 speakers. 
+Namely, the L1 Italian/L2 English/L3 Spanish group will be replaced with a L1 Spanish/L2 English/L3 Brazilian Portuguese group to mirror the other L3 group (L1 English/L2 Spanish/L3 Brazilian Portuguese). 
+By using true mirror image groups, potential differences between Italian and Spanish, for example, can be ruled out in the interpretation of the results. 
+
+In addition to previously mentioned changes, subtractive groups of bilinguals will be recruited and given the same experimental tasks in order to evaluate the predictions of the Linguistic Proximity Model (Westergaard et al., 2017) relative to the TPM. The subtractive design involves comparing the L3 groups to L2 groups when the latest learned language (L3 or L2) is the same. In the present case, it would involve the recruitment of a group of L1 English/L2 Brazilian Portuguese and a group of L1 Spanish/L2 Brazilian Portuguese speakers. 
+
+The tasks will all be given in a single session and will be programmed in Psychopy (Peirce et al., 2019) and administered entirely online. 
+Participants will be recruited and screened from the online platform Prolific.co.
+Each participant will complete five total tasks: the LexTALE in their L2 and L3, the Semantic interpretation task, the Context-based Collocation Task and the Bilingual Language Profile (Birdsong et al., 2012). 
+
+### Analysis 
+
+Two total analyses will be carried out. First, a direct replication of the one-way ANOVAs done in the original paper will be done for comparability, in which the percentage of correct trials was analyzed as a function of group for both tasks. 
+Following this time, a Bayesian logistic regression will be carried out, in which the outcome will be treated as binary (correct or incorrect). 
+The probability of a correct response will be modeled as a function of group (4 total: two L3 groups and two L2 groups), condition (pre or post nominal adjective) and LexTALE score, and include random intercepts for item and participant. 
+
+#### Impact
+
+The value of this replication would have implications for both supporters of the TPM and other models.
+In the event that a difference is found between L3 groups or a subtractive and L3 group, the basis for the model itself could be called into question in favor of other models.
+This finding would call into question whether the TPM can be considered the dominant or most accurate model in L3 acquisition, given that a recent systematic review (Rothman et al., 2019) concluded that typological transfer accounted for most outcomes in L3 morphosyntax, rather than order of acquisition. 
+However, many of these studies' designs and statistical analyses only allow for binary interpretation of the results.
+That is, the design of these studies is such that either the L3 is impacted by the L1 or the L2, rather than allowing for the combination of both languages to impact the L3. 
+This strategy is present in many L3 studies and is arguably influenced by Rothman (2011).
+A failed replication of this study would not only call into question its own findings, but findings in many other studies which adopted similar methodology and now serve as the empirical basis to the TPM. 
+
+On the other hand, a successful replication of Rothman (2011) would suggest that full influence is possible and would strengthen the basis of the TPM and lessen counter arguments that include potential sampling issues, while also quantifying the (un)certainty related to this similar performance between groups. 
+
+\newpage
+
+## Tasks 
+
+### Semantic interpretation task 
+
+This task was designed to evaluate how the adjective's position in a DP (pre or post nominal) impacted meaning in both the L2 and L3. 
+The task had both a Spanish and Brazilian Portuguese version, in which 5 target items were tested in each of a pre-nominal and post-nominal condition.
+Equal numbers of fillers were used which tested other properties (e.g., anaphora resolution) used in subsequent studies. 
+Below is an example taken of the Semantic interpretation task in Spanish taken directly from Rothman (2011).
+
+**Prompt**
+"Los maridos honestos se merecen el respeto de sus mujeres." 
+
+**Answer choices**
+
+a.) *De todos los maridos que hay solo algunos, los que son honestos merecen el respeto de sus esposas.*
+
+b.) Todo marido se merece el respeto de su esposa porque todo marido es, por ser marido, honesto.
+
+
+**Prompt**
+"Los valientes Incas tenían mucho éxito." 
+
+**Answer choices**
+
+a.) Entre los incas había los valientes y los no valientes, así que todo inca que era valiente también tenía éxito
+
+b.) *Ser Inca equivale a ser valiente, así que todo Inca tenía éxito.*
+
+### Context-based Collocation Task
+
+A second task elicited production of adjectival DPs by way of context. 
+In the task, participants read a short story and had to fill in a blank at the end of the story with either a pre or post nominal adjective. 
+Below is an example of the Context-based Collocation Task in Spanish taken directly from Rothman (2011).
+
+*Example*
+
+Mi esposa se llama Magda. Ella es una persona muy amable y cariñosa. Aunque solo tenemos 22 años, hace mucho tiempo que somos amigas. Magda es una vieja amiga _______ (viejo).
+
+‘My best friend is named Magda. She is a very nice and affectionate person. Even though we are only 2x2-years-old, we have been friends for a long time. Magda is an old friend.’’
+
+
+\newpage
+
+## References
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\phantom{.} 
+\textcolor{white}{\\} 
+\vspace{-0.5in}
+
+Bardel, C., \& Falk, Y. (2007). The role of the second language in third language acquisition: The case of Germanic syntax. *Second Language Research*, 23(4), 459–484. https://doi.org/10.1177/0267658307080557
+
+Birdsong, D., Gertken, L. M., & Amengual, M. (2012). Bilingual Language Profile: An Easy-to-Use Instrument to Assess Bilingualism. *COERLL*. <https://sites.la.utexas.edu/bilingual/>.
+
+Izura, C., Cuetos, F., & Brysbaert, M. (2016). Lexical Test for Advanced Learners of Spanish [Data set]. *American Psychological Association*. https://doi.org/10.1037/t47086-000
+
+Kruschke, J. (2018). Rejecting or Accepting Parameter Values in Bayesian Estimation. *Advances in Methods and Practices in Psychological Sciences*, 1(2), 270–280. https://doi.org/10.1177/2515245918771304
+
+Lakens, D. (2017). Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses. *Social Psychological and Personality Science*, 8(4), 355–362. https://doi.org/10.1177/1948550617697177
+
+Lemhöfer, K., & Broersma, M. (2012). Introducing LexTALE: A quick and valid Lexical Test for Advanced Learners of English. *Behavior Research Methods*, 44(2), 325–343. https://doi.org/10.3758/s13428-011-0146-0
+
+Peirce, J., Gray, J. R., Simpson, S., MacAskill, M., Höchenberger, R., Sogo, H., Kastman, E., & Lindeløv, J. K. (2019). PsychoPy2: Experiments in behavior made easy. *Behavior Research Methods*, 51(1), 195–203. https://doi.org/10.3758/s13428-018-01193-y
+
+Rothman, J. (2011). L3 syntactic transfer selectivity and typological determinacy: The typological primacy model. *Second Language Research*, 27(1), 107–127. https://doi.org/10.1177/0267658310386439
+
+Rothman, J., González Alonso, J., & Puig-Mayenco, E. (2019). A Review of Published Work. In Third Language Acquisition and Linguistic Transfer (1st ed., pp. 188–246). Cambridge University Press.
+
+Slabakova, R. (2017). The scalpel model of third language acquisition. *International Journal of Bilingualism*, 21(6), 651–665. https://doi.org/10.1177/1367006916655413
+
+Westergaard, M., Mitrofanova, N., Mykhaylyk, R., \& Rodina, Y. (2017). Crosslinguistic influence in the acquisition of a third language: The Linguistic Proximity Model. *International Journal of Bilingualism*, 21(6), 666–682. https://doi.org/10.1177/1367006916648859
+
+Zhou, C., & Li, X. (2021). LextPT: A reliable and efficient vocabulary size test for L2 Portuguese proficiency. *Behavior Research Methods*. https://doi.org/10.3758/s13428-021-01731-1
+
+
+\endgroup

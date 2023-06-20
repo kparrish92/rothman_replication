@@ -1,0 +1,6 @@
+﻿port_type.keys,port_type.rt,participant,session,date,expName,psychopyVersion,OS,frameRate,choice.keys,choice.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,prompt,opt_a,opt_b,correct
+1,16.8076,,001,2022-09-19_19h18.57.299,rothman_exp,2022.2.3,Win32,141.8439716,,,,,,,,,,,
+,,,001,2022-09-19_19h18.57.299,rothman_exp,2022.2.3,Win32,141.8439716,1,11.7487,0,0,0,3,1,O professor ensina dois cursos que você pode fazer. Há _______________.,opções várias,várias opções,opt_b
+,,,001,2022-09-19_19h18.57.299,rothman_exp,2022.2.3,Win32,141.8439716,1,3.2375,0,1,1,9,1,Meus amigos não têm dinheiro. São _______________.,amigos pobres,pobres amigos,opt_a
+,,,001,2022-09-19_19h18.57.299,rothman_exp,2022.2.3,Win32,141.8439716,1,5.5865,0,2,2,1,1,Esse livro é a edição do ano passado - precisamos do ________,Livro novo,livro novo,opt_b
+,,,001,2022-09-19_19h18.57.299,rothman_exp,2022.2.3,Win32,141.8439716,1,6.4336,0,3,3,0,1,"Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)",super-heróis valentes,valentes super-heróis,opt_b
