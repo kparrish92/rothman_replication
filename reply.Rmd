@@ -1,0 +1,47 @@
+---
+title: "Response to Reviewer 1"
+output: pdf_document
+date: "2023-11-09"
+---
+
+
+
+
+- Practical vs. Functional equivalence: This is a case in point.  
+
+
+There is no question from a statistical perspective that there is an issue here, and to the point of the author, this should be addressed.  But somewhat distinctly, as you will see below, I would rather argue that the issue is with applying frequentist analyses at all since even 
+
+with greater power a null result, even with equivalence testing, cannot truly be interpreted in the way the author seems to suggest.
+
+R: It can in terms of quantifying uncertaintly since the TOST specifies eq bounds
+
+In other words, it is not JUST a number=power issue (more below).  
+Let us consider a bit more deeply where I am going here.  The models do not assume or need to that any two groups are exactly equivalent, they are about influence from a source language that given the methodology both groups have access to. Keep in mind that well designed studies test the specific property to be examined in the L3 in both other languages, including only those showing evidence of the target grammatical representations in each language is available for transfer/influence (matching the descriptive literature of the target).  Also in well-designed studies, the property is important in that there is a clear distinction in the representational space. Because, at least to properly test the most restrictive model in terms of timing of its predictions, the TPM, task design is relatively simplistic for a relatively novice learner to do—to juxtapose the models properly one must be testing at the earliest stages of L3 exposure (of course this is not to suggest that testing at other stages of L3 development is irrelevant, but for testing models that includes the TPM there are issues beyond early exposure (see Puig-Mayenco & Rothman, 2020; Rothman, González-Alonso & Puig-Mayenco, 2019). And so, in principle, all participants have access to both grammatical representations. As a result, failure to show that either—irrespective of order of acquisition—shows signs of influence of one of the available languages is itself significant in the theoretical space, that the language not showing influence when it was available was the same one already tells you something about any default role order of acquisition likely plays (that is, not) and so on. In other words, it’s not just that the two groups seem to “use” the same source resulting in a null effect, they also fail to show influence from the other available language at all. This observation holds whether they do so, in either case, in an equivalent way—that is somewhat beside the point although it does not address the stats issue to be sure. Worth considering never-the-less.  The fact remains and always will that the very prediction of the models when brought together will result in predictions of null results—at least under an approach that includes mirror image—and as alluded to above big numbers will never fully address the equivalence issue as brought up if frequentist modelling is applied.
+Further to the above, the present paper still definitely has the potential to underscore an important point—contextualized a bit better in the context of the above discussion in my view so that it resonates maximally. Even so, there are few additional major and some minor issues that need to be addressed before this paper can be published and effectively do so. The major points—in addition to the one made above that should be acknowledged and provokingly considered—circle around the balance that can be improved with respect to how things are argued, mostly in terms of the strength to which some things can be claimed on the basis of what the present data set itself enables the author to claim definitively.  When one is critiquing others for being potentially too expeditious in their interpretation of data, the bar is raised even higher for them to avoid doing the same even if with improvements from the original.  To be clear, I think the points can and should be raised, but a bit of humility in terms of what can be definitively claimed here would also make the points being raised more impactful—because there are some issues from the author’s own line of doctrine that apply as well to the present data set, which are detailed/queried below.
+
+Major comments:
+I am very confused about the Results section. Firstly, for statistical reports, when a main effect is claimed (significant), p values, sometimes, are reported to be above .05 (to name a few, line 271, line 273, line 274, line 282, among others). I would assume the authors meant to use “<” instead of “>”.
+
+Secondly, the authors conducted an a priori power analysis, showing a total sample of 214 (assuming a balanced design) is required to reach a power of .8. However, the final sample is 211 (not a huge difference I understand) and the groups do not have a balanced number. I am wondering if the authors have adjusted the equivalence bounds for this. If not (or even if so), the power issue that is central to the paper is still there. I suggest that the authors estimate the minimum detectable effect, i.e., a sensitivity analysis considering the final sample size was conducted.
+
+Thirdly, I understand the rationale of conducting t-tests along with equivalence tests. I am not sure why t-tests were needed when no interaction terms were found for the collocation task, although it does not matter in the end because these two t-tests gave the same interpretations. However, multiple comparisons should be corrected at least.
+
+Now, assuming every step was corrected, power is not of concern, and the writing is corrected, when the authors claimed “not equivalent and not different”, I suggest the authors to further specify that even under TOST, this finding should be interpreted as: the current study cannot exclude meaningful effect sizes and that the result is interpreted as not equivalent and not different (i.e., insufficient data to draw a conclusion).
+
+Lastly, although I agree with the authors that TOST methods should be in the toolkits for us, it should be of a post-hoc nature, which I think the authors needs to point out. At the same time, what is, to me, one the of central problems the authors have with the original study, i.e., sample size and statistical power, remains for TOST methods. TOST methods also can be more restrictive than some other statistical modelling, e.g., what about repeated measures?
+
+Other comments:
+Page 5, line 95 to 98. Although I agree with the authors that the lack of a main effect does not entail practical equivalence, simplifying its reason to low power and high uncertainty is not optimal. Under the NHST if the null hypothesis is true, then the probability of ANY p-value is equally likely. That is to say, even with large sample size and lower population uncertainty, NHST doesn't "approve" the null hypothesis. It can only provide evidence against the null hypothesis if the p-value is below the chosen significance level. If the p-value is above the significance level, it doesn't prove that the null hypothesis is true; it just indicates that there isn't enough evidence to reject it.
+
+Page 8, line 166. Change filters”Country of Birth” to filters “Country of Birth”.
+
+Page 8, line 170 to line 173. Any statistical differences between these two groups?
+
+Page 9, line 195 to line 198. Are these differences statistically significant?
+
+Page 12, line 246 to line 247. Could you please specify more about the randomisation? Do you mean 1. participants finished LexTALE in one or more randomly selected language(s); or (2) participants finished LexTALE in all languages but the sequence of the test for each language is randomised?
+
+Page 12, line 250. Could you actually anonymise the OSF project and share the OSF link for review? I assume your R scripts are there as well, which would address some of my concerns.
+
+Page 19, line 370. I wish to caution the authors that under the frequentist approach, any results from a single study (regardless of the statistical power), are inconclusive, more so when the null effect is not falsified. Each individual study should be taken as a coin flip on if you found something or not. The purpose of NHST is to ensure that if you keep repeating the study that way and examine all the results together, they will produce false positives 5% of the time and false negatives 20% of the time (assuming alpha as .05). You will never know if any single one of the studies constitutes the errors. That being said, I completely agree and applaud the authors to promote publishing null results (and include all data information) for future meta-analyses.  Also given related concerns articulated above, it would be nice to acknowledge that a non-frequentist approach might be the best way to go in future if equivalence must be pushed, somewhat address the real world issues I mentioned with this in the beginning part of the review.

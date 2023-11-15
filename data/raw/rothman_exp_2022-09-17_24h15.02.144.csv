@@ -1,8 +1,0 @@
-﻿port_type.keys,port_type.rt,participant,session,date,expName,psychopyVersion,OS,frameRate,choice.keys,choice.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,prompt,opt_a,opt_b,correct
-0,11.7367,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,,,,,,,,,,,
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,0,6.9083,0,0,0,0,1,"Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)",super-heróis valentes,valentes super-heróis,opt_b
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,1,3.3626,0,1,1,7,1,"Há muitos pais na platéia da festa. Há crianças que jogam muito bem, mas as que jogam mal são uma vergonha para os pais. Os _______________ batem palmas e gritam por seus filhos. (orgulhoso)",pais orgulhosos,orgulhosos pais,opt_a
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,1,9.3557,0,2,2,6,1,"Nem todo garoto da minha escola é Atlético, mas os _______________ percorrem 7 milhas todos os dias.",meninos fortes,fortes meninos,opt_a
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,0,3.595,0,3,3,1,1,Esse livro é a edição do ano passado - precisamos do ________,Livro novo,livro novo,opt_b
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,0,5.4261,0,4,4,2,1,Eu a conheci há muitos anos. É uma _______________.,amigo velho,velho amigo,opt_b
-,,,001,2022-09-17_24h15.02.144,rothman_exp,2022.2.3,Win32,59.9880024,0,4.3828,0,5,5,3,1,O professor ensina dois cursos que você pode fazer. Há _______________.,opções várias,várias opções,opt_b

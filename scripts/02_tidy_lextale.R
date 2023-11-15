@@ -1,18 +1,22 @@
-# Tidy lextale --------------------------------------------------------------
-#
-# Last update: 2023-05-16
+# ------------------------------------------------------
+# Date 11/9/23
 # This script loads and tidies the data for all three lextale tasks
-#
-# -----------------------------------------------------------------------------
+# 
+# Note: Each Lextale (in Spanish, Portuguese and English) has 2 data files, 
+# which had minor mismatches in the structure of the raw data. As a result, 
+# these files are individually loaded, tidied, and subsequently combined. The 
+# questionnaire data is also tidied here and combined with the lextale results
+# -------------------------------------------------------
 
+
+## Load Libraries and Helper functions
 source(here::here("scripts", "00_libs.R"))
 source(here::here("scripts", "01_helpers.R"))
 
-## tidy eng lex 
-
-eng_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-fg99.csv"),
+## Tidy the English Lextale (part 1)
+eng_lextale_1 = read.csv(here("data", "lextale", "data_exp_127819-v12_task-fg99.csv"),
                        na.strings = c("")
-) %>% 
+) %>%  
   select("Participant.Private.ID",
          "Spreadsheet..targetresponse",
          "Spreadsheet..item",
@@ -35,11 +39,9 @@ eng_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-fg99.csv"),
            ((word/40*100) + (non/20*100)) / 2)
 
 
-span_lextale_1 %>% 
-  group_by(gorilla_id, type) %>% 
-  summarize(n = n())
 
-eng_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-fg99.csv"),
+## Tidy the English Lextale (part 2)
+eng_lextale_2 = read.csv(here("data", "lextale", "data_exp_127819-v11_task-fg99.csv"),
                          na.strings = c("")
 ) %>% 
   select("Participant.Private.ID",
@@ -63,9 +65,11 @@ eng_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-fg99.csv"),
   mutate(lextale_score_eng = 
            ((word/40*100) + (non/20*100)) / 2)
 
+## Combine both English Lextale files
 eng_lextale = rbind(eng_lextale_1, eng_lextale_2)
 
-port_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-gdok.csv"),
+## Tidy Portuguese Lextale (part 1)
+port_lextale_1 = read.csv(here("data", "lextale", "data_exp_127819-v12_task-gdok.csv"),
                         na.strings = c("")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..targetresponse",
@@ -88,7 +92,8 @@ port_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-gdok.csv"),
   mutate(lextale_score_port = 
            ((word/60*100) + (non/30*100)) / 2)
 
-port_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-gdok.csv"),
+# Tidy Portuguese Lextale (part 2)
+port_lextale_2 = read.csv(here("data", "lextale", "data_exp_127819-v11_task-gdok.csv"),
                           na.strings = c("")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..targetresponse",
@@ -112,9 +117,11 @@ port_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-gdok.csv"),
            ((word/60*100) + (non/30*100)) / 2)
 
 
+## Combine Portuguese Lextale
 port_lextale = rbind(port_lextale_1, port_lextale_2)
 
-span_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-6d1f.csv"),
+$# Tidy Spanish lextale (part 1)
+span_lextale_1 = read.csv(here("data", "lextale", "data_exp_127819-v12_task-6d1f.csv"),
                           na.strings = c("")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..targetresponse",
@@ -137,7 +144,8 @@ span_lextale_1 = read.csv(here("data_g", "data_exp_127819-v12_task-6d1f.csv"),
   mutate(lextale_score_span = 
            ((word/60*100) + (non/30*100)) / 2)
 
-span_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-6d1f.csv"),
+## Tidy Spanish Lextale (part 2)
+span_lextale_2 = read.csv(here("data", "lextale", "data_exp_127819-v11_task-6d1f.csv"),
                           na.strings = c("")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..targetresponse",
@@ -160,9 +168,11 @@ span_lextale_2 = read.csv(here("data_g", "data_exp_127819-v11_task-6d1f.csv"),
   mutate(lextale_score_span = 
            ((word/60*100) + (non/30*100)) / 2)
 
+## Combine Spanish Lextale 
 span_lextale = rbind(span_lextale_1, span_lextale_2)
 
-questionnaire_1 = read.csv(here("data_g", "data_exp_127819-v12_questionnaire-zbjj.csv"),
+## Tidy questionnaire data to add to Lextale data (part 1)
+questionnaire_1 = read.csv(here("data", "lextale", "data_exp_127819-v12_questionnaire-zbjj.csv"),
                          na.strings = c("")) %>% 
   select(Participant.Private.ID, Question, Response, Response.Type,
          Key) %>% 
@@ -171,7 +181,8 @@ questionnaire_1 = read.csv(here("data_g", "data_exp_127819-v12_questionnaire-zbj
   filter(Response.Type == "response") %>% 
   pivot_wider(names_from = Question, values_from = Response)
 
-questionnaire_2 = read.csv(here("data_g", "data_exp_127819-v11_questionnaire-zbjj.csv"),
+## Tidy questionnaire data to add to Lextale data (part 2)
+questionnaire_2 = read.csv(here("data", "lextale", "data_exp_127819-v11_questionnaire-zbjj.csv"),
                          na.strings = c("")) %>% 
   select(Participant.Private.ID, Question, Response, Response.Type,
          Key) %>% 
@@ -180,8 +191,10 @@ questionnaire_2 = read.csv(here("data_g", "data_exp_127819-v11_questionnaire-zbj
   filter(Response.Type == "response") %>% 
   pivot_wider(names_from = Question, values_from = Response)
 
+## Combine questionnaire versions
 questionnaire = rbind(questionnaire_1, questionnaire_2)
 
+## Rename columns 
 names(questionnaire)[1] = "gorilla_id"
 names(questionnaire)[4] = "L1"
 names(questionnaire)[6] = "eng_aoa"
@@ -189,8 +202,7 @@ names(questionnaire)[7] = "span_aoa"
 names(questionnaire)[8] = "port_aoa"
 names(questionnaire)[9] = "prolific_id"
 
-glimpse(questionnaire)
-
+## Combine all Lextale dataframes and the questionnaire
 lextale_df = left_join(questionnaire, 
                      eng_lextale, by = "gorilla_id") %>% 
   left_join(port_lextale, by = "gorilla_id") %>%
@@ -199,10 +211,10 @@ lextale_df = left_join(questionnaire,
          span_aoa, port_aoa, prolific_id, lextale_score_eng,
          lextale_score_port, lextale_score_span)
 
-
+## Save the output  
 lextale_df %>% 
-  write.csv(here("data_g", "tidy", "lextale_df.csv"))
+  write.csv(here("data", "tidy", "lextale_df.csv"))
 
-lextale_df %>% group_by(L1) %>% summarize(n = n())
+
 
 

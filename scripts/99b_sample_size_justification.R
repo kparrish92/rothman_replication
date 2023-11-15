@@ -1,3 +1,9 @@
+# ------------------------------------------------------
+# Date 11/9/23
+# This script simulates data for the purpose of determining 
+# the needed sample size  
+# -------------------------------------------------------
+
 
 # Code for a two sample power analysis that runs both a t.test and tost
 
@@ -30,5 +36,14 @@ for(thisSize in 1:nrow(outer_df)){
   
 }
 
+# tidy results of loop to make the output readable 
+
+sample_needed = as.data.frame(outer_df) %>% 
+  rename("Sample Size" = V1) %>% 
+  mutate(V2 = V2/1000) %>% 
+  mutate(V3 = V3/1000) %>% 
+  rename("Pct Positive TOST" = V2) %>% 
+  rename("Pct Positive T-test" = V3)
+  
 
 

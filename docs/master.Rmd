@@ -1,0 +1,417 @@
+---
+title             : "Statistical Insignificance is not Practical Equivalence: A Conceptual Replication of Rothman (2011)"
+shorttitle        : "Rothman (2011) Replication"
+
+author: 
+  - name          : "Kyle Parrish"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "15 Seminary Place, New Brunswick, NJ"
+    email         : "kyle.parrish@rutgers.edu"
+
+
+affiliation:
+  - id            : "1"
+    institution   : "Rutgers University"
+
+abstract: |
+
+ The present study was a conceptual replication of Rothman (2011) and examined the determiner phrase syntax of a large sample (n = 211) of L3 learners of Portuguese. 
+ These learners were divided into two groups in a mirror-image design (n = 96 L1 English-L2 Spanish, n = 115 L1 Spanish-L2 English) and data was collected completely online.
+ The original materials, a collocation task to measure production and a semantic interpretation task to measure perception, were recreated.
+ Like the original study, there was not a main effect for group in any of the two-way Analyses of Variance.
+ However, these results show that it should not be assumed that experimental groups behave equivalently based on a null effect: out of four total post-hoc tests of equivalence, only two were significant when the equivalence bounds were set at a small effect size (d = +/- .4). 
+ Ultimately, it is argued that determining the smallest effect size of interest and subsequent equivalence testing are necessary to answer key questions in the field of L3 acquistion.
+ 
+
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "L3 acquisition, equivalence testing, replication"
+wordcount         : "5568"
+
+bibliography      : ["r-references.bib"]
+
+floatsintext      : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+library(gtsummary)
+source(here::here("scripts", "00_libs.R"))
+source(here("scripts", "04_load_data.R"))
+source(here("scripts", "05_analysis.R"))
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+
+# Introduction 
+
+The field of third language acquisition is still far from agreeing upon exactly how previously known languages (the first and second learned languages) impact third language (L3) development. 
+One key debate in the field regards whether the typological similarity of previously known languages drives transfer to the L3, or whether order of acquisition plays a role.
+For example, there is some evidence of the second language (L2) impacting the L3 even when the L1 would be a better choice [@bardel2007role; @falk2017pronouns; @falk2011object; @hopp2019cross].
+This view has been formalized as the L2 Status Factor Model, which predicts that the L2 is a privileged source of transfer to the L3 based on the cognitive similarity between late-learned languages [@bardel2012l2; @paradis2009declarative].
+On the other hand, a prominent model in the field, the Typological Primacy Model, posits that wholesale transfer, or the transfer of the entire L1 or L2 system (but not both) occurs. 
+The language to be transferred is chosen given hierarchical cues from L3 input to determine which source language (the L1 or L2) is more typologically similar to the language being learned and occurs during the initial stages of L3 development, estimated by to be some 20-30 hours of L3 instruction.
+In the TPM, wholesale transfer is motivated by cognitive economy, in which it is argued that transferring two languages is more cognitively demanding than one.
+This process is argued to be a cognitive reflex, in which the parser transfers one whole language at the earliest possible moment in L3 development. 
+
+The initial proposal of the Typological Primacy Model was based primarily on data published in @rothman2011l3.
+In the study, the determiner phrase syntax of two groups of L3 learners of Spanish or Brazilian Portuguese were tested using a semantic interpretation task and a context-based Collocation Task.
+Specifically, the study examined how pre and postnominal adjectives impacted noun meaning.
+In Romance languages, but not English, a difference in meaning occurs when an adjective appears in prenominal or postnominal position.
+For example, in Spanish, *el viejo amigo* refers to an friend one has had for a long time, while *el amigo viejo* refers to a friend who is old.
+The two groups both spoke two Romance languages and English, but varied as to whether their L1 or L2 was a Romance language: the first group spoke L3 Spanish (L1 English/L2 Spanish) and the second group spoke L3 Italian (L1 Spanish/L2 English).
+The results showed that, in both tasks and groups, the participants showed high levels of accuracy in their L3 determiner phrase syntax.
+The analysis of the data revealed no significant effect of group in the Analysis of Variance.
+
+One key method utilized in Rothman (2011) was the use of mirror-image like groups, first suggested by @foote2009transfer.
+In a mirror image design, two groups of L3 learners (learning language A) are compared.
+These groups speak the same languages, but in the opposite order (L1 language - L2 language C vs. L1 language C - L2 language B).
+This choice was made in order to rule out order of acquisition effects documented in other studies [e.g. @bardel2007role; @hermas2014multilingual; @hermas2010language], which suggest that either the L1 or L2 have a special status for transfer based on their order of having been acquired. 
+One objective of this design thus becomes to provide evidence that the two groups perform similarly on a given task. 
+If groups do perform similarly, it would provide evidence that order of acquisition does not predict whether a source language will impact the L3, and that two groups of subjects both have access to the same language during L3 learning, whether or not it is the L1 or the L2.
+
+Using the mirror image design, several studies have made comparisons of two mirror image groups of L3 speakers with the goal being to demonstrate that they perform similarly on an experimental task, and, as a result, are impacted by the same source language whether it is their L1 or their L2.
+In these studies, a popular statistical choice is to use an Analysis of Variance (ANOVA), in which a given continuous outcome variable (such as percentage correct) is analyzed as a function of a categorical variable(s) (such as group).
+In this analysis, the researcher typically carries out a nested model comparison to assess for main effects and interactions given a significance threshold. 
+The presence of a main effect or interaction with a p-value under the significance threshold has been referred to as statistically significantly different.
+On the other hand, if there is no main effect during a nested model comparison, this suggests that a given predictor does not explain any additional variance in the observed data.
+In much of the work done on the TPM, the lack of a main effect has been used as evidence of similar performance between groups. 
+For example, in the original study, @rothman2011l3 carried out a two-way mixed model ANOVA, and did not find a main effect for group.
+Other studies followed this interpretation, such as @borg2013acquisition, who investigated the acquisition of future-tense probability in L3 Spanish by L1 English-L2 French and L1 French-L2 English speakers. 
+Like @rothman2011l3, there was not an effect in the group comparison, and the author concluded that the two L3 groups "..the results in this condition follow our predictions in that there is no significant difference between the two L3 groups" (p. 17).
+A similar approach was taken by @puig2020low, who found that, in a subset of their data, that two distinct L3 English structures were influenced by the same source language by mirror image groups of Catalan-Spanish bilinguals on the basis of the lack of a main effect.
+
+Some scholars, such as @lago2021some, have argued that results of the body of work for the TPM largely should be considered inconclusive, given that the lack of a main effect does not entail practical equivalence [@altman1995statistics].
+This is so largely due to low power and high uncertainty surrounding insignificant results in low sample studies.
+One consequence of low statistical power is an increased false negative rate (type II error).
+As the true effect size between two groups or conditions decreases, the number of observations (or participants) that are necessary to detect the effect increases.
+In other words, to detect a small effect, one needs many participants. 
+For example, in order to detect an effect of Cohen's D = +/- .4, a power analysis reveals that 98 participants are needed to achieve a power level of .8 at the significance level of .05.
+
+Rather than simply not finding significant differences, views such as the TPM would be improved by establishing whether comparisons are practically equivalent.
+One method to establish equivalence is equivalence testing [@lakens2018equivalence].
+Similar to a t-test, equivalence testing utilizes a significance threshold (typically .05) and equivalence bounds (ideally determined by theory and equal to the smallest effect size of interest). 
+The test is considered significant if the 90% confidence interval surrounding the observed mean difference falls within the equivalence bounds.
+Assuming that the standard deviation of the original study (which was not reported) is similar to the present study (`r  round(mean(c(d_df_i$sd_corr, d_df$sd_corr)), digits = 1)`), the power of the original study could only reliably detect practical equivalence if the bounds were set d = +/- `r round(res[1], digits = 2)` at a power level of .8.
+This is typically considered a very large effect.
+Again assuming a similar standard deviation, this effect would correspond to a difference of approximately `r round(abs((round(mean(c(d_df_i$sd_corr, d_df$sd_corr)), digits = 1)*round(res[1], digits = 2))/5), digits = 2)` in percentage correct between groups.
+As such, the sample of the original study could only reliably detect equivalence if the effect was quite large, and likely also different in practice.
+In fact, a power analysis assuming the same standard deviation reveals that a that power of a test of equivalence in original study was 0 (n = 13 per group, power level = .8, alpha = .05, equivalence bounds d = +/- .4).
+
+# The present study:
+
+The present study was a conceptual replication of Rothman (2011) and was primarily proposed due to a combination of the sample size of the original study and the statistical tests used. 
+Unfortunately, the stimuli from the original study were lost and as a result had to be re-created using the descriptions from the original study and an example of each task as a basis.
+The stimuli were adapted from a combination of examples provided in Rothman (2011) and @judy2021effects, which both reported Spanish versions of a semantic interpretation task and collocation task.
+The stimuli and answer choices were translated to Portuguese and chosen so that 10 total tokens remained with 5 preposed and 5 postposed adjectives in each task remained.
+In addition to new stimuli, the groups were changed from the original study so that both groups spoke the same 3 languages.
+In the original study, the two groups were L1 English L2 Spanish L3 Brazilian Portuguese and L1 Italian L2 English L3 Spanish. 
+This group difference made it necessary to create both Spanish and Brazilian Portuguese versions of the experimental tasks.
+The present study used mirror image groups of Spanish-English bilinguals (L1 English - L2 Spanish and L1 Spanish - L2 English) who both spoke L3 Brazilian Portuguese, so that both groups were compared using the task in the same language.
+Additionally, the present study did not recruit groups of Portuguese or Spanish native speakers as a comparison group, since the primary purpose of this replication was to examine whether the null effects between the original L3 groups would also be practically equivalent at a higher sample size. 
+The present replication was guided by the following research questions:
+
+RQ1: Will the Spanish L1 and English L1 groups perform the same in perception and production of adjective-noun order in determiner phrases in their L3?
+
+RQ2: Will the lack of a main effect in the models also be practically equivalent when the equivalence bounds are d = +/- .4?
+
+For both of these research questions, the results of the ANOVA and tests of equivalence will be examined in tandem.
+If there is not a main effect in the ANOVA of group, then the analysis of the original study will have been successfully replicated.
+However, the present study considers this result to be inconclusive. 
+Evidence for similar performance must also come from the test of equivalence. 
+As a result, this design will reveal whether, in this particular case, the lack of an effect also entails practical equivalence. 
+
+# Methods
+
+## Sample size justification 
+
+An a priori power analysis was conducted using R to test the practical equivalence between two independent group means using a two-tailed test of equivalence [@lakens2018equivalence], a small effect size as the equivalence bounds (d = .40), and an alpha of .05. 
+Result showed that a total sample of 214 participants with two equal sized groups of n = 107 was required to achieve a power of .80.
+
+## Participants
+
+A total of `r sum(tot_df$n[1], tot_df$n[2])` participants took part in this experiment, consisting of two total groups.
+All participants were recruited using the online participant recruitment platform Prolific.co using its filtering system.
+The groups were L3 speakers of Portuguese who spoke L1 American English-L2 Spanish (n = `r tot_df$n[1]`; henceforth the L1 English group) and L1 Mexican Spanish-L2 English (n = `r tot_df$n[2]`; henceforth the L1 Spanish group).
+The L1 English group was filtered using the filters "Country of Birth" was "the United States", "First Language" was "English" and "Fluent Languages" was both "Spanish" and "Portuguese.
+The L1 Spanish group was filtered using the filters "Country of Birth" was "Mexico", "First Language" was "Spanish" and "Fluent Languages" was both "English" and "Portuguese.
+All participants completed a brief language history questionnaire prior to the experimental tasks, during which self-reported the age at which they first felt comfortable using their L2 and L3.
+The L1 English group reported feeling comfortable speaking their L2 Spanish at a mean age of `r rep_aoa$mean_aoa[3]` (sd = `r rep_aoa$sd_aoa[3]`), and their L3 Portuguese at a mean age of `r rep_aoa$mean_aoa[2]` (sd = `r rep_aoa$sd_aoa[2]`).
+The L1 Spanish group reported first feeling comfortable in their L2 English at a mean age of `r rep_aoa$mean_aoa[4]` (sd = `r rep_aoa$sd_aoa[4]`), and their L3 Portuguese at a mean age of `r rep_aoa$mean_aoa[5]` (sd = `r rep_aoa$sd_aoa[5]`).
+
+## Materials
+
+To measure proficiency in each language, the Spanish, English and Portuguese LexTALE tasks were used.
+In addition to the proficiency measures, the two additional tasks were given to participants which were designed to capture their perception and production of how an adjective's position in a determiner phrase impacted meaning.
+Perception was measured using a Semantic interpretation task, while a Context Based Collocation task was used for production. 
+
+### LexTALE tasks 
+
+The LexTALE is a lexical decision task used to measure vocabulary size of as a proxy of general proficiency in a given language.
+The original LexTALE tasks was designed in English [@lemhofer2012introducing], but has since been adapted to several additional languages including Spanish [@izura2014lextale] and Portuguese [@zhou2022lextpt].
+During the task, participants see a sequence of letters (either a word or a pseudoword) on a screen and decide whether the word exists in the given language by clicking a green check mark (if they believe the sequence of letters on screen represent a word in the language) or a red "x" (if they think that the sequence of letters is a psuedoword).
+The Portuguese and Spanish tasks consisted of 90 trials in which 60 items were words and 30 were pseudowords.
+The English task consisted of 60 total trials in which 40 items were words and 20 were pseudowords.
+Each Lextale was scored by the following formula was scored by the formula: ((number of words correct/total number of real wordsx100) + (number of pseudowords correct/total number of pseudowordsx100)) / 2.
+Figure \@ref(fig:prof-desc) shows the distribution of LexTALE scores by each group in all three languages.
+Unsurprisingly, the L1 English speakers and L1 Spanish speakers are most proficient in their L1.
+The L1 English group is slightly more proficient in their L3, Portuguese, than their L2 Spanish.
+Oppositely, the L1 Spanish group is more proficient in their L2 English than their L3 Portuguese.
+
+```{r, 'prof-desc', echo=FALSE, fig.cap="LexTALE score as a function of Language and Group"}
+knitr::include_graphics(here("docs", "figs", "prof_plot.png"))
+```
+
+### Semantic Interpretation Task 
+
+The semantic interpretation task was designed to measure the perception of how adjective-noun order impacts determiner phrase (DP) interpretation.
+In both Spanish and Portuguese, but not in English, whether an adjective is placed before a noun (*el nuevo libro*) or after the noun (*el libro nuevo*) can impact the meaning of the determiner phrase. 
+For example, *el libro nuevo* refers to a book that has been newly acquired, but is not necessarily brand-new, where *el neuvo libro* does refer to a brand new book.
+During a trial, the participants saw one prompt at a time on the screen with two answer choices.
+The participants submitted their choice by clicking either of the two answer choices with the mouse.
+The task contained 10 total items which tested in each of a prenominal (n = 5) and postnominal conditions (n = 5).  
+A full list of the stimuli used, along with the correct answers, can be found in the supplementary materials.
+Below is an example taken of the Semantic interpretation task in Spanish taken directly from Rothman (2011).
+
+**Prompt**
+
+Mariela é uma velha amiga de Florence. 
+
+*"Mariela is an old friend from Florence."*
+
+**Answer choices**
+
+a.) **Muitos anos atrás eles são amigos.**
+
+*They have been friends for a long time.*
+
+b.) Mariela é velha.
+
+*Mariela is old.*
+
+**Prompt**
+
+Naquela casa, mora um homem sozinho.
+
+*Only one man lives in that house.*
+
+**Answer choices**
+
+a.) O homem se sente sozinho.
+
+*The man feels lonely.*
+
+b.) **Apenas um homem mora em casa.**
+
+*Just one man lives in the house.*
+
+### Context-based Collocation Task
+
+A second task elicited production of adjectival DPs by way of context.
+In the task, participants read a short story and had to fill in a blank at the end of the story with either a pre or post nominal adjective. 
+Like the semantic interpretation task, the participants saw one prompt at a time on the screen with two answer choices.
+The participants submitted their choice by clicking either of the two answer choices with the mouse.
+A total of 10 items were given to each participant, in which the correct answer of 5 items was a prenominal position and the remaining 5 were postnominal.
+Below is an example adapted from the Context-based Collocation Task in Spanish taken directly from Rothman (2011).
+
+*Example*
+
+Meus amigos não têm dinheiro. São _______________ (pobres amigos/**amigos pobres**).
+
+*My friends do not have money. They are ________(unfortunate friends/poor friends)*
+
+## Procedure
+
+Participants completed all tasks in a single experimental session in the in-browser platform Gorilla.sc [@anwyl2018gorillas].
+The session began with a brief history questionnaire, followed by the LexTALE proficiency tests and ended with the two experimental tasks.
+The LexTALE test languages were randomized, so any combination of Spanish, English and Portuguese was possible. 
+The experiments paused briefly between tasks.
+All data collection took place asynchronously online on the participant's computer.
+All materials, scripts, and the document used to create this manuscript can be found on the Open Science Framework [**OSF LINK removed for review**].
+
+## Statistical analysis
+
+A replication of the analysis of the original study was carried out.
+In the original study, two multilevel two-way ANOVAs for each of the tasks (the Semantic interpretation and context-based collocation tasks) were done. 
+In each model, the number of correct responses was analyzed as a function of item type (preposed or postposed), group (L1 Spanish, L1 English) and their interaction, with participant included as a random intercept. 
+Main effects and interactions were assessed using nested model comparisons and model assumptions were verified via visual inspections of Q-Q and residuals vs. fitted plots.
+Post-hoc tests of equivalence were also run in which the equivalence bounds were Cohen's d = +/- .4.
+In all cases, alpha was set to .05.
+
+# Results
+
+Figure \@ref(fig:cmc-desc) shows the average correct responses (out of 5) for the Context-based collocation task by both groups, while figure \@ref(fig:sem-desc) shows the same information for the Context-based collocation task by both groups.
+The means and standard deviations for each case are present just above each bar.
+Overall, the participants were more often correct in the postposed condition in both tasks.
+
+```{r, 'cmc-desc', echo=FALSE, fig.cap="Average Number of correct answers in the Context-based Collocation Task"}
+knitr::include_graphics(here("docs", "figs", "cbc_desc.png"))
+```
+
+
+```{r, 'sem-desc', echo=FALSE, fig.cap="Average Number of correct answers in the Semantic Interpretation Task"}
+knitr::include_graphics(here("docs", "figs", "semantic_desc.png"))
+```
+
+### Replication of the original analysis 
+
+There was no main effect for group in the ANOVA for the collocation task, F(`r df_aov_col$num_df[1]`, `r df_aov_col$den_df[1]`) = `r round(df_aov_col$F[1], digits = 2)`, p = `r round(df_aov_col$p.value[1], digits = 3)` or the group by position interaction, F(`r df_aov_col$num_df[3]`, `r df_aov_col$den_df[3]`) = `r round(df_aov_col$F[3], digits = 2)`, p > .05.
+There was, however, a main effect for position (pre vs. post), F(`r df_aov_col$num_df[2]`, `r df_aov_col$den_df[2]`) = `r round(df_aov_col$F[2], digits = 2)`, p > .05.
+In the interpretation task, there was also no main effect for group, F(`r df_aov_int$num_df[1]`, `r df_aov_int$den_df[1]`) = `r round(df_aov_int$F[1], digits = 2)`, p = `r round(df_aov_int$p.value[1], digits = 3)`.
+Like the collocation task, there was a main effect for position (pre vs. post), F(`r df_aov_int$num_df[2]`, `r df_aov_int$den_df[2]`) = `r round(df_aov_int$F[2], digits = 2)`, p > .05.
+There was also a group by position interaction, F(`r df_aov_int$num_df[3]`, `r df_aov_int$den_df[3]`) = `r round(df_aov_int$F[3], digits = 2)`, p > .05.
+
+### Test of Equivalence
+
+In addition to each test of equivalence, a Welch's Two Sample t-test was carried out to determine whether, while also potentially being practically equivalent, a comparison would also be statistically different [see e.g. @lakens2018equivalence]. 
+Each test was run between groups (L1 English and L1 Spanish) for either preposed or postposed adjectives in both the semantic interpretation task and collocation task.
+
+## Postposed collocation task
+
+The equivalence test was significant in the postposed collocation task, t(`r min(round(col_post_df$df[2]), round(col_post_df$df[3]))`) = `r min(round(col_post_df$t[2], digits = 2), round(col_post_df$t[3], digits = 2))`, p > .05.
+The equivalence bounds were d = +/- .4 or +/- `r abs(round(col_post_df_eq$low_eq[1], digits = 2))` in raw units (answers correct).
+The observed effect was a mean difference of `r round(col_post_df_es$estimate[1], digits = 3)` (90% CI `r round(col_post_df_es$lower.ci[1], digits = 3)` - `r round(col_post_df_es$upper.ci[1], digits = 3)`) in standardized units or `r round(col_post_df_es$estimate[2], digits = 3)` (90% CI `r round(col_post_df_es$lower.ci[2], digits = 3)` - `r round(col_post_df_es$upper.ci[2], digits = 3)`) in raw units.
+The t-test was not significant, t(`r round(col_post_df$df[1])`) = `r round(col_post_df$t[1], digits = 2)`, p = `r round(col_post_df$p.value[1], digits = 2)`.
+Given these results, we can conclude that the groups were not different from 0 and statistically practically equivalent in their number of correct answers in the postposed condition in the collocation task.
+
+## Preposed collocation task
+
+In the preposed condition on the collocation task, the test of equivalence was significant for the upper bound $\Delta$U, t(`r round(col_pre_df$df[3], digits = 2)`) = `r round(col_pre_df$t[3], digits = 2)`, p > .05, but not at the lower bound, $\Delta$L, t(`r round(col_pre_df$df[2], digits = 2)`) = `r round(col_pre_df$t[2], digits = 2)`, p = `r round(col_pre_df$p.value[2], digits = 2)`.
+The equivalence bounds were d = +/- .4 or +/- `r abs(round(col_pre_df_eq$low_eq[1], digits = 2))` in raw units (answers correct).
+The observed effect was a mean difference of `r round(col_pre_df_es$estimate[1], digits = 3)` (90% CI `r round(col_pre_df_es$lower.ci[1], digits = 3)` - `r round(col_pre_df_es$upper.ci[1], digits = 3)`) in standardized units or `r round(col_pre_df_es$estimate[2], digits = 3)` (90% CI `r round(col_pre_df_es$lower.ci[2], digits = 3)` - `r round(col_pre_df_es$upper.ci[2], digits = 3)`) in raw units.
+The t-test was also not significant, t(`r round(col_pre_df$df[1])`) = `r round(col_pre_df$t[1], digits = 2)`, p = `r round(col_pre_df$p.value[1], digits = 2)`.
+Taken together, these results suggest that the effect is not different from zero and also not practically equivalent within a small effect size.
+
+## Postposed Semantic interpretation task
+
+The equivalence test was significant in the postposed semantic interpretation task, t(`r min(round(sem_post_df$df[2]), round(sem_post_df$df[3]))`) = `r min(round(sem_post_df$t[2], digits = 2), round(sem_post_df$t[3], digits = 2))`, p > `r max(round(sem_post_df$p.value[2], digits = 5), round(sem_post_df$p.value[3], digits = 5))`.
+The equivalence bounds were d = +/- .4 or +/- `r abs(round(sem_post_df_eq$low_eq[1], digits = 2))` in raw units (answers correct).
+The observed effect was a mean difference of `r round(sem_post_df_es$estimate[1], digits = 3)` (90% CI `r round(sem_post_df_es$lower.ci[1], digits = 3)` - `r round(sem_post_df_es$upper.ci[1], digits = 3)`) in standardized units or `r round(sem_post_df_es$estimate[2], digits = 3)` (90% CI `r round(sem_post_df_es$lower.ci[2], digits = 3)` - `r round(sem_post_df_es$upper.ci[2], digits = 3)`) in raw units.
+The t-test was not significant, t(`r round(sem_post_df$df[1], digits = 2)`) = `r round(col_post_df$t[1], digits = 2)`, p = `r round(col_post_df$p.value[1], digits = 2)`.
+Given these results, we can conclude that the groups were not different from 0 and statistically practically equivalent in their number of correct answers in the postposed condition in the collocation task.
+
+## Preposed Semantic interpretation task
+
+In the preposed condition on the semantic interpretation task, the test of equivalence was not significant for the upper bound $\Delta$U, t(`r round(col_pre_df$df[3], digits = 2)`) = `r round(col_pre_df$t[3], digits = 2)`, p > .05, nor was it at the lower bound, $\Delta$L, t(`r round(col_pre_df$df[2], digits = 2)`) = `r round(col_pre_df$t[2], digits = 2)`, p = `r round(col_pre_df$p.value[2], digits = 2)`.
+The equivalence bounds were d = +/- .4 or +/- `r abs(round(col_pre_df_eq$low_eq[1], digits = 2))` in raw units (answers correct).
+The observed effect was a mean difference of `r round(col_pre_df_es$estimate[1], digits = 3)` (90% CI `r round(col_pre_df_es$lower.ci[1], digits = 3)` - `r round(col_pre_df_es$upper.ci[1], digits = 3)`) in standardized units or `r round(col_pre_df_es$estimate[2], digits = 3)` (90% CI `r round(col_pre_df_es$lower.ci[2], digits = 3)` - `r round(col_pre_df_es$upper.ci[2], digits = 3)`) in raw units.
+The t-test was significant, t(`r round(sem_pre_df$df[1], digits = 2)`) = `r round(sem_pre_df$t[1], digits = 2)`, p = `r round(sem_pre_df$p.value[1], digits = 2)`.
+Taken together, these results suggest that the groups were statistically different in their number of correct answers and not practically equivalent within a small effect size. 
+
+# Discussion and conclusion
+
+```{r, summaryanovas, eval=T, echo=F}
+data.frame(Task = c("Collocation Task", "Semantic Interpretation Task"),
+Group = c("no", "no"),
+ANOVA_position = c("yes", "yes"),
+ANOVA_interaction = c("no", "yes"),
+Replication = c("Partial", "Partial")) %>% 
+  t() %>% 
+  knitr::kable(format = "pandoc", align = rep("r", 11), 
+        caption = "Summary of the Analyses of Variance in both tasks",
+        label = "summaryanovas")
+```
+
+Table \@ref(tab:summaryanovas) summarizes the results of the replication of the original analyses. 
+Overall, the results of the two ANOVAs point to a partial replication of the original analysis.
+Like the original study, the present replication found no main effects for group.
+In other words, there was not evidence that groups performed differently, nor that they were performing the same.
+The replication did, however, find main effects for position in both tasks and a group by position interaction for the Semantic Interpretation task.
+Unlike the original study, the replication investigated whether the lack of main effect of group was also practically equivalent
+Table \@ref(tab:summaryttests) details results of the tests of equivalence.
+The four total tests compared the number of correct answers out of five for both tasks in preposed and postposed positions.
+The results showed that two of the four comparisons were practically equivalent, while they other two were not, when the equivalence bounds were d = +/- .4.
+
+```{r, 'summary-tosts', echo=FALSE, fig.cap="Summary of results of the Tests of Equivalence and t-tests"}
+data.frame("Position" = c("pre", "post", "pre", "post"),
+"Task" = c("Collocation Task", "Collocation Task", 
+  "Semantic Interpretation Task", "Semantic Interpretation Task"),
+"TOST" = c("no", "yes", "no", "yes"),
+"t_test" = c("no", "no", "yes", "no")) %>% 
+  knitr::kable(format = "pandoc", align = rep("r", 11), 
+        caption = "Summary of the results from the tests of equivalence and t-tests",
+        label = "summaryttests")
+```
+
+These results showed that null effects do not always entail practical equivalence, and suggest that equivalence testing can be useful in L2 and L3 studies moving forward.
+Equivalence testing arguably allows for the marriage of our statistical tools and theory, since the equivalence bounds are ideally be determined on the basis of the smallest important difference in practice.
+In the present study, d = +/- .4 was considered as the SESOI based on a recent meta-analysis of effect sizes in L2 research [@plonsky2014big].
+This number came from the approximately 25th percentile of the total effects and was considered small, whereas the 50th percentile was considered a medium effect (d = +/- .7) and 75th percentile was considered large (d = +/- 1).
+These more specific guidelines stand in contrast to the recommendations of @cohen2013statistical, who proposed initial bench marks of .2, .5, and .8, as small, medium, and large effect sizes.
+While researchers in L2 or L3 research could use the new benchmarks proposed by  @plonsky2014big as a general guideline, more fine-grained approaches have also been proposed such as anchor-based methods or the subjective experience of participant perception in order to justify the smallest effect size of interest (SESOI) [see @anvari2021using].
+
+Once one has determined the SESOI, then it can be determined how many participants are necessary in each group by running a power analysis, regardless of whether one's aim is to demonstrate that groups or conditions are distinct or equivalent.
+Figure \@ref(fig:pc) shows the needed participants per group to detect practical equivalence at a power level of .8 (alpha = .05) according do the smallest effect size of interest ranging from d = +/-.1 to +/- 1.
+The smallest effect size of interest was used as the equivalence bounds, meaning that any effect less than the SESOI was considered practically equivalent. 
+It is clear from the figure that evidence for the null hypothesis requires a rather large sample in the event that a very small effect is considered meaningful.
+For example, if the SESOI is d = +/- .1, then 1713 participants are needed per group to achieve a power level of .8.
+On the other hand, if only a large effect is considered meaningful, such as d = +/- 1, then only 17 participants are needed per group.
+Figure \@ref(fig:pct) shows the how many participants are needed to detect any difference when the true effect size is the number on the x-axis at a power level of .8.
+In other words, a particular SESOI and number of participants per group results in a probability of .8 of detecting any significant difference, and a probability of .2 that the results will falsely be negative.
+In each of the ten cases effect sizes, slightly more participants are needed per group to detect practical equivalence.
+For example, d = +/- .4 needs 98 per group to be able to detect a difference at a power level of .8, but 107 per group to determine practical equivalence.
+
+```{r, 'pc', echo=FALSE, fig.cap="Number of participants needed per effect size to detect practical equivalence"}
+knitr::include_graphics(here("docs", "figs", "pc.png"))
+```
+
+```{r, 'pct', echo=FALSE, fig.cap="Number of participants needed per effect size to detect any significant different"}
+knitr::include_graphics(here("docs", "figs", "pc_t.png"))
+```
+
+Although the present work largely advocates for larger samples and the use of equivalence testing, this may not be practical to every study.
+It is important to note that, especially in studies of multilinguals, it can be very difficult to find statistically powered samples of participants that can be justifiably added to a single group.
+This occurs, in part, due to the wide variety of variability in bilingual populations.
+Despite these potential issues, a lack of power is not necessarily a reason not to carry out a study.
+Rather, it is reason to temper the conclusions from a given experiment.
+For instance, in the case of the original study, a power analysis reveals that the probability (assuming a similar standard deviation to the on collected here) of a significant equivalence test (power = .8, alpha = .05, d = +/- .4) was essentially 0.
+As a result, a more appropriate conclusion based on the results of the statistical tests in the original study would been that the result was not significantly different nor was there sufficient evidence that it was the same.
+In other words, the results of the original study were inconclusive.
+
+Despite the higher probability that many low sample studies will be inconclusive (low power increases the probability of false negative findings), they can and should still be published, since they can be analyzed in aggregate.
+The lack of tolerance for inconclusive, or null results, has been described as the file drawer problem [@rosenthal1979file].
+In this view, the bias to publish only significant result could theoretically result in only false-positive studies being published.
+That is, using a significance threshold of .05, 5 out of 100 independent studies showing a significant difference are published while 95 null findings are put in the "file drawer" and not published.
+Tools exist such at meta-analysis allow for the cumulative evaluation of the findings, whether or not they are underpowered or significant.
+By using meta-analysis, once underpowered samples reduce the risk of false negative findings (type II error).
+This, taken together with the publication of null or inconclusive findings, the probability of false positive findings (type I error) can also be reduced.
+
+In their current forms, none of the L3 models specify exactly how much difference between groups on a given task constitutes evidence of transfer.
+Recall that the present study used a general benchmark of d = +/- .4 as the equivalence bounds based on the meta-analysis of @plonsky2014big.
+Interestingly, if the bounds had been set to d = +/- .5, all four of the tests of equivalence would have been significant. 
+To put this in terms of correct answers out of 5, given a pooled standard deviation of 1.2, the mean difference between groups would be .6 answers correct (group A has 3 answers correct and group B has 3.6 and we would say they are practically equivalent) as opposed to the chosen equivalence bounds of d = +/- .4 or .48 (such as 3 answers correct vs. 3.48 answers correct).
+As it stands, neither of these equivalence bounds are justified by more than being a general guideline. 
+The Linguistic Proximity Model [@westergaard2017crosslinguistic; @westergaard2022full] best fits this finding, given that, although Spanish appeared to influence the Portuguese of both groups, it did so to distinct degrees in perception and production.
+The Typological Primacy Model [@rothman2011l3; 
+@rothman2015linguistic] predicts that wholesale transfer occurs, and as a result cannot explain the disparity between perception and production.
+
+\newpage
+
+
+# References
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs" custom-style="Bibliography"></div>
+\endgroup
+  
+
+  
+

@@ -1,3 +1,8 @@
+# ------------------------------------------------------
+# Date 11/9/23
+# This script loads libraries needed for the subsequent scripts 
+# -------------------------------------------------------
+
 library(here)
 library(fs)
 library(tidyverse)
@@ -8,3 +13,5 @@ library(sjPlot)
 library(insight)
 library(httr)
 library(bayesplot)
+library(pwr)
+library(TOSTER)

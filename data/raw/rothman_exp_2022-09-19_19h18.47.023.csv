@@ -1,9 +1,0 @@
-﻿port_type.keys,port_type.rt,participant,session,date,expName,psychopyVersion,OS,frameRate,choice.keys,choice.rt,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,prompt,opt_a,opt_b,correct
-1,40.3386,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,,,,,,,,,,,
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,1,17.5554,0,0,0,0,1,"Não há super-herói que não seja conhecido por sua bondade, coragem e força. Os _______________ do mundo não têm medo de nada. (valente)",super-heróis valentes,valentes super-heróis,opt_b
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,0,23.5333,0,1,1,8,1,"Entre os alunos, sempre há um equilíbrio de inteligência e estupidez em uma escola. Os _______________ estão sempre nas 'classes de honra' (estudioso)",estudantes estudiosos,estudiosos estudantes,opt_a
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,0,4.5279,0,2,2,9,1,Meus amigos não têm dinheiro. São _______________.,amigos pobres,pobres amigos,opt_a
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,0,8.7917,0,3,3,5,1,Alguns pais estão mais envolvidos na vida de seus filhos do que outros. Os _______________ brinca com seus filhos à noite antes de adormecer. (afetuoso),pais afetuosos,afetuosos pais,opt_a
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,1,2.7877,0,4,4,4,1,"Era apenas uma pessoa, não duas pessoas. Foi a _______________ .",pessoa mesma,mesma pessoa,opt_b
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,1,9.3255,0,5,5,2,1,Eu a conheci há muitos anos. É uma _______________.,amigo velho,velho amigo,opt_b
-,,,001,2022-09-19_19h18.47.023,rothman_exp,2022.2.3,Win32,59.97361161,1,7.2212,0,6,6,1,1,Esse livro é a edição do ano passado - precisamos do ________,Livro novo,livro novo,opt_b

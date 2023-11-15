@@ -1,24 +1,20 @@
-# Tidy experimental tasks --------------------------------------------------------------
+# ------------------------------------------------------
+# Date 11/9/23
+# This script loads and tidies the data for the semantic 
+# interpretation and collocation tasks 
 #
-# Last update: 2023-05-16
-# This script loads and tidies the data for all 
-# semeantic interpretation and collocation tasks 
-#
-# -----------------------------------------------------------------------------
+# Note: Each task (the collocation task and the semantic interpretation task) 
+# has 2 data files, which had minor mismatches in the structure of the raw data.
+# As a result, these files are individually loaded, tidied, and subsequently 
+# combined. 
+# -------------------------------------------------------
 
+## Load Libraries and Helper functions
 source(here::here("scripts", "00_libs.R"))
 source(here::here("scripts", "01_helpers.R"))
 
-lextale_df = read.csv(here("data_g", "tidy", "lextale_df.csv"))
-
-interpretation_task_ids = read.csv(here("data_g", "data_exp_128242-v3_questionnaire-9e8c.csv")) %>% 
-  filter(Response.Type == "action") %>% 
-  select("Participant.Private.ID",
-         Response) %>%   
-  rename("gorilla_id" = "Participant.Private.ID",
-         "prolific_id" = "Response")
-
-collocation_task_1 = read.csv(here("data_g", "data_exp_127819-v12_task-t5nj.csv")) %>% 
+## Tidy the raw collocation task data (part 1)
+collocation_task_1 = read.csv(here("data", "collocation_task", "data_exp_127819-v12_task-t5nj.csv")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..prompt", 
          "Spreadsheet..correct",
@@ -48,15 +44,7 @@ collocation_task_1 = read.csv(here("data_g", "data_exp_127819-v12_task-t5nj.csv"
   )) %>% 
   filter(!is.na(pre_post)) 
 
-# to make desc 
-#%>% 
-#  group_by(pre_post, gorilla_id) %>% 
-#  summarize(correct_no_coll = sum(is_correct)) %>% 
-#  pivot_wider(names_from = "pre_post", values_from = "correct_no_coll") %>%
-#  rename("pre_coll" = "pre",
-#        "post_coll" = "post")
-
-
+## Tidy the raw collocation task data (part 2)
 collocation_task_2 = read.csv(here("data_g", "data_exp_127819-v11_task-t5nj.csv")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..prompt", 
@@ -87,11 +75,13 @@ collocation_task_2 = read.csv(here("data_g", "data_exp_127819-v11_task-t5nj.csv"
   )) %>% 
   filter(!is.na(pre_post)) 
 
+## Save the output 
 collocation_task = rbind(collocation_task_1, collocation_task_2) %>%
   left_join(lextale_df, by = "gorilla_id")  %>% 
-  write.csv(here("data_g", "tidy", "collocation_task.csv"))
+  write.csv(here("data", "tidy", "collocation_task.csv"))
 
-interpretation_task_1 = read.csv(here("data_g", "data_exp_127819-v12_task-6yod.csv")) %>% 
+## Tidy the interpretation task (Part 1)
+interpretation_task_1 = read.csv(here("data", "interpretation_task", "data_exp_127819-v12_task-6yod.csv")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..prompt", 
          "Spreadsheet..correct",
@@ -125,7 +115,8 @@ interpretation_task_1 = read.csv(here("data_g", "data_exp_127819-v12_task-6yod.c
   left_join(lextale_df, by = "gorilla_id") 
 
 
-int_2_temp = read.csv(here("data_g", "data_exp_128242-v3_task-6yod.csv")) %>% 
+## Tidy the interpretation task (Part 2)
+int_2_temp = read.csv(here("data", "interpretation_task","data_exp_128242-v3_task-6yod.csv")) %>% 
   select("Participant.Private.ID",
          "Spreadsheet..prompt", 
          "Spreadsheet..correct",
@@ -158,17 +149,29 @@ int_2_temp = read.csv(here("data_g", "data_exp_128242-v3_task-6yod.csv")) %>%
     opt_b == "Não contei a você sobre mais ninguém, além de Marta." ~ "post")) %>% 
   filter(!is.na(pre_post)) 
 
+## Load Lextale data
+lextale_df = read.csv(here("data", "tidy", "lextale_df.csv"))
 
+## Load the participant ids who completed the interpretation task
+interpretation_task_ids = read.csv(here("data", "task_ids", "data_exp_128242-v3_questionnaire-9e8c.csv")) %>% 
+  filter(Response.Type == "action") %>% 
+  select("Participant.Private.ID",
+         Response) %>%   
+  rename("gorilla_id" = "Participant.Private.ID",
+         "prolific_id" = "Response")
+
+## Join the interpretation and Lextale tasks by id 
 tt = left_join(lextale_df, interpretation_task_ids, by = "prolific_id") %>% 
   rename("gorilla_id_o" = "gorilla_id.x") %>% 
   rename("gorilla_id" = "gorilla_id.y") %>% 
   filter(!is.na(gorilla_id))
 
+## Join the interpretation and Lextale tasks by id 
 interpretation_task_2 = int_2_temp %>% 
   left_join(tt, by = "gorilla_id") %>% 
   select(-gorilla_id_o)
 
-
+## Save output
 interpretation_task = rbind(interpretation_task_1, interpretation_task_2) %>% 
-  write.csv(here("data_g", "tidy", "interpretation_task.csv"))
+  write.csv(here("data", "tidy", "interpretation_task.csv"))
 
