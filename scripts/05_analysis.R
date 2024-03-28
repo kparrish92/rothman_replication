@@ -8,6 +8,8 @@
 source(here::here("scripts", "00_libs.R"))
 source(here("scripts", "04_load_data.R"))
 
+
+
 ## ANOVA for the collocation task 
 col_mod_aov <- 
   afex::aov_ez(
@@ -18,6 +20,15 @@ col_mod_aov <-
     data = aov_df_col, 
     print.formula = T
   )
+
+
+## Assumptions 
+performance::check_homogeneity(col_mod_aov) # homogeneity 
+performance::check_sphericity(col_mod_aov) # sphericity  
+p = performance::check_normality(col_mod_aov) # check normality
+
+
+plot(p)
 
 ## Extract data for reporting 
 df_aov_col = col_mod_aov[["anova_table"]] %>% 
@@ -36,6 +47,14 @@ int_mod_aov <-
     data = aov_df_int, 
     print.formula = T
   )
+
+## Assumptions 
+performance::check_homogeneity(int_mod_aov) # homogeneity 
+performance::check_sphericity(int_mod_aov) # sphericity  
+m = performance::check_normality(int_mod_aov) # check normality
+
+
+plot(m)
 
 ## Extract data for reporting 
 df_aov_int = int_mod_aov[["anova_table"]] %>% 

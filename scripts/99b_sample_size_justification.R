@@ -46,4 +46,12 @@ sample_needed = as.data.frame(outer_df) %>%
   rename("Pct Positive T-test" = V3)
   
 
+# Sensitivity analysis for review 
 
+pwr::pwr.2p2n.test(h = NULL, n1 = 96, n2 = 115, sig.level = .05, power = .8)
+
+TOSTER::powerTOSTtwo(alpha=0.05, N = 105, statistical_power=0.8) # d = .4038 
+
+sd_present = round(mean(c(d_df_i$sd_corr, d_df$sd_corr)), digits = 1) # pull sd from the study
+
+sd_present*.0038*20 # Multiply by 20 to get from correct answers to percent correct

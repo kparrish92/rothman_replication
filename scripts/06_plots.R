@@ -17,7 +17,14 @@ prof_df = collocation_task %>%
   pivot_longer(cols = c("English", "Spanish", "Portuguese"), 
                names_to = "Language", 
                values_to = "Score")
-  
+
+
+prof_df %>% 
+  group_by(L1, Language) %>% 
+  summarize(`Mean Score` = paste0(round(mean(Score), digits = 2), 
+                          ", sd = (", round(sd(Score)), ")"), 
+            `Range` = paste0(min(round(Score))," - ", max(round(Score))))
+
 ## Figure 1: LexTALE score as a function of Language and Group
 prof_df %>% 
   ggplot(aes(y = Score, x = Language, fill = L1)) + 
@@ -43,7 +50,7 @@ ggplot(data=mean_correct, aes(x=pre_post, y=mean_c, fill=L1)) +
             position=position_dodge(width=0.9), vjust=-0.5, size = 3) +
   ylim(0,5) +
   theme_minimal() +
-  ylab("Group mean (correct)") +
+  ylab("Group mean correct (standard deviation)") +
   theme(legend.position="bottom") +
   ggsave(here("docs", "figs", "cbc_desc.png"))
 
@@ -65,7 +72,7 @@ ggplot(data=mean_correct_i, aes(x=pre_post, y=mean_c, fill=L1)) +
             position=position_dodge(width=0.9), vjust=-0.5, size = 3) +
   ylim(0,5) +
   theme_minimal() +
-  ylab("Group mean (correct)") +
+  ylab("Group mean correct (standard deviation)") +
   theme(legend.position="bottom") +
   ggsave(here("docs", "figs", "semantic_desc.png"))
 

@@ -1,0 +1,25 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=8.92in]{figs/prof_plot} \caption{LexTALE score as a function of Language and Group}\label{fig:prof-desc}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=7.19in]{figs/semantic_desc} \caption{Average Number of correct answers in the Semantic Interpretation Task}\label{fig:sem-desc}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=7.19in]{figs/cbc_desc} \caption{Average Number of correct answers in the Context-based Collocation Task}\label{fig:cmc-desc}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=7.19in]{figs/pc} \caption{Number of participants needed per effect size to detect practical equivalence}\label{fig:pc}
+\end{figure*}
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\includegraphics[width=7.47in]{figs/pc_t} \caption{Number of participants needed per effect size to detect any significant different}\label{fig:pct}
+\end{figure*}

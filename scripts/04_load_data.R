@@ -12,7 +12,7 @@ collocation_task = read.csv(here("data", "tidy", "collocation_task.csv")) %>%
   filter(L1 == "English" | L1 == "Spanish") %>%  
   mutate(lextale_score_eng_std = (lextale_score_eng - mean(lextale_score_eng)) / sd(lextale_score_eng),
          lextale_score_span_std = (lextale_score_span - mean(lextale_score_span)) / sd(lextale_score_span),
-         lextale_score_port_std = (lextale_score_span - mean(lextale_score_span)) / sd(lextale_score_span))
+         lextale_score_port_std = (lextale_score_port - mean(lextale_score_port)) / sd(lextale_score_port))
 
 ## Load Interpretation Task
 interpretation_task = read.csv(here("data", "tidy", "interpretation_task.csv")) %>% 
@@ -20,7 +20,7 @@ interpretation_task = read.csv(here("data", "tidy", "interpretation_task.csv")) 
   filter(!is.na(L1)) %>% 
   mutate(lextale_score_eng_std = (lextale_score_eng - mean(lextale_score_eng)) / sd(lextale_score_eng),
          lextale_score_span_std = (lextale_score_span - mean(lextale_score_span)) / sd(lextale_score_span),
-         lextale_score_port_std = (lextale_score_span - mean(lextale_score_span)) / sd(lextale_score_span))
+         lextale_score_port_std = (lextale_score_port - mean(lextale_score_port)) / sd(lextale_score_port))
 
 ## Tidy the results of the Collocation task for analyis
 aov_df_col = collocation_task %>% 
@@ -66,4 +66,13 @@ rep_aoa = aoa_df %>%
   group_by(L1, Language) %>% 
   summarise(mean_aoa = round(mean(Score), digits = 2), 
             sd_aoa = round(sd(Score), digits = 1))
+
+prof_df = collocation_task %>% 
+  group_by(prolific_id, L1) %>% 
+  summarise(English = mean(lextale_score_eng), 
+            Spanish = mean(lextale_score_span), 
+            Portuguese = mean(lextale_score_port)) %>% 
+  pivot_longer(cols = c("English", "Spanish", "Portuguese"), 
+               names_to = "Language", 
+               values_to = "Score")
 

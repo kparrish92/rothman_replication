@@ -1,0 +1,53 @@
+\begin{longtable}[]{@{}rrrr@{}}
+\caption{\label{tab:descproftable}A table of the proficiency scores by both groups in each language}\tabularnewline
+\toprule\noalign{}
+L1 & Language & Mean Score & Range \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+L1 & Language & Mean Score & Range \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+English & English & 82.64, sd = (14) & 41 - 100 \\
+English & Portuguese & 65.57, sd = (13) & 42 - 96 \\
+English & Spanish & 57.83, sd = (12) & 38 - 96 \\
+Spanish & English & 70.47, sd = (11) & 39 - 91 \\
+Spanish & Portuguese & 62.07, sd = (13) & 29 - 91 \\
+Spanish & Spanish & 78.28, sd = (14) & 32 - 99 \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}lrr@{}}
+\caption{\label{tab:summaryanovas}Summary of the Analyses of Variance in both tasks}\tabularnewline
+\toprule\noalign{}
+\endfirsthead
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Task & Collocation Task & Semantic Interpretation Task \\
+Group & no & no \\
+ANOVA\_position & yes & yes \\
+ANOVA\_interaction & no & yes \\
+Replication & Partial & Partial \\
+\end{longtable}
+\efloatseparator
+ 
+\begin{longtable}[]{@{}rrrr@{}}
+\caption{\label{tab:summaryttests}Summary of the results from the tests of equivalence and t-tests}\tabularnewline
+\toprule\noalign{}
+Position & Task & TOST & t\_test \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Position & Task & TOST & t\_test \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+pre & Collocation Task & no & no \\
+post & Collocation Task & yes & no \\
+pre & Semantic Interpretation Task & no & yes \\
+post & Semantic Interpretation Task & yes & no \\
+\end{longtable}

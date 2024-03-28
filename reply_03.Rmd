@@ -1,0 +1,37 @@
+---
+title: "Reply to Dr. Kevin McManus"
+output: pdf_document
+date: "2024-01-03"
+---
+
+*Dear Dr. McManus,* 
+
+*Thank you for your thoughtful feedback regarding this manuscript. This has been very helpful and I am grateful for the opportunity to improve the quality of this work. I have taken care to address each of your comments and suggestions below. Your comments have been copied to this document in plain text, and my replies are below in italics.*
+
+The decision to investigate how research design and statistical decisions shaped the initial study’s findings is a very reasonable one. Indeed, both reviewers see this as an important area for future investment. One concern I have with this approach, though, is that the motivation for replication appears to come more from your review of the field at large rather than from your review of Rothman (2011). In fact, the manuscript doesn’t really include much review of Rothman’s study at all. It is thus not very clear why Rothman (2011) was identified for replication. There is some discussion of other studies that have used this research design, so I suppose they could also have been selected for replication. In a replication, the aim is to revisit a particular study in order to better understand its findings. I think you can address this issue by including a subsection titled “Motivation for replication” (or something similar) where you provide a more in-depth account for why you have identified Rothamn (2011) for replication. In summary, what you are looking to do here is to provide a strong rationale for why this study has been selected for replication and how a replication of ii can be useful for the field.
+
+*These are helpful concerns. I agree that I could have indeed picked any of the studies supporting the TPM in theory but I felt the most appropriate one, given the body of research, in the one which prposed the model and influenced all of the following studies. In other words, it was the foundation that has been built upon on the basis of similar (likely problematic) conclusions drawn from statistical tools used. I added a brief explanation of this in the manuscript*
+
+Comparative reporting of research design and methods in the replication
+There should be more comparative reporting in the manuscript in order to clearly communicate how aspects of the replication’s study and methods compare to the initial study. For example, the participants section contains very little information about the extent to which the sample in the replication is similar to that in the initial study. Similarly, the sample size justification doesn’t provide any comparison with the initial study, nor does the discussion of the different tasks. In terms of the procedures, are these different/similar to the initial study? In short, the methods section needs to more clearly describe in what ways the two studies are similar and different. For the changes made, these require justification.
+
+
+*Thank you for this feedback. I have taken steps to incorporate all of this where it was possible. In the participants section, I made several edits to compare to the original study and justified the needed changes. However, there were some cases in which the original study did not include details, such as the procedures section, and sample size justification. I have chosen not to mention overtly that these sections are missing in the original paper because I feel it interferes with the primary goal of the paper, which is to examine narrative conclusions on the basis of statistical tools.*
+
+
+Statistical analysis
+Assumptions for carrying out ANOVAs should be reported. It is also not clear how the data were prepared for analysis. The data visualizations should include indices of variability and not means only (see Figures 1-3), for example by including individual data points and/or confidence intervals. Is there a reason that tables of descriptives are not presented in the main text?
+
+*I added that the assumptions about normality of the residual, sphericity and homogenity of variance were verified, and information about data preparation.* *Additionally, all scripts are available on OSF, which I mention in the manuscript. The visualizations do include sds in parentheses, but this was not stated. I have corrected this on the y axis of the plot.*
+*I also added descriptive statistics of the proficiency scores, but not the experimental tasks (which contain the information that would be reported the tables in already created figures)*
+
+
+Claims of similarities/differences in the results
+The replication study should try to substantiate any claims made about there being between-study similarities and differences in the results. For example, it is claimed that the current study points to “a partial replication of the original analysis”. It would appear, therefore, that one of the criteria being used to assess replicability is whether a similar p-value was found in the replication. But this is not very clear.  The conditions for what counts as a “replicated finding” (if you choose to use this label) should be stated in the data analysis section. Importantly, what is missing in the ms is some discussion of how you will determine whether there are between-study similarities and differences in the results.
+
+*This information has been added to the "Motivation for Replication" section. I state there that a successful replication would be the lack of a main effect of group and no group x position interaction.*
+
+Future replication research
+The manuscript should include a section in or after the discussion called future replication research in which you discuss how future replication studies can build on your study, studies in this area that should be considered for replication, and/or recommendations for specific variable modifications based on your replication study.
+
+*I added a brief paragraph with recommendations which is now the penultimate paragraph in the discussion and conclusion section.*
